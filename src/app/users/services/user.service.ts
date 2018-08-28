@@ -29,7 +29,7 @@ export class UserService extends RESTService<IUser> {
     .pipe(
       map((res: Response) => {
         return res.json();
-      }),
+      })
     );
   }
 }

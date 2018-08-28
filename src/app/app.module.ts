@@ -33,6 +33,16 @@ import { USER_PROVIDER, USERS_API } from './users';
 import { MainComponent } from './main.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import {GetUsersApi} from "../data/services/clients/settings/user/GetUsersApi";
+import {GetUserByIdApi} from "../data/services/clients/settings/user/GetUserByIdApi";
+import {CovalentDynamicFormsModule} from "@covalent/dynamic-forms";
+import {CovalentMarkdownModule} from "@covalent/markdown";
+import {CovalentHighlightModule} from "@covalent/highlight";
+import {CovalentStepsModule} from "@covalent/core";
+import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
+import {CurentUserService} from "../data/services/curent-user.service";
+import {TdAlertDialogComponent} from "@covalent/core";
+import {CovalentDialogsModule} from "@covalent/core";
 
 const httpInterceptorProviders: Type<any>[] = [
   RequestInterceptor,
@@ -47,7 +57,7 @@ export function getAPI(): string {
     AppComponent,
     MainComponent,
     LoginComponent,
-    DashboardComponent,
+    DashboardComponent
   ], // directives, components, and pipes owned by this NgModule
   imports: [
     // angular modules
@@ -70,6 +80,12 @@ export function getAPI(): string {
     CovalentLayoutModule,
     CovalentMediaModule,
     CovalentLoadingModule,
+    CovalentStepsModule,
+    // (optional) Additional Covalent Modules imports
+    CovalentHighlightModule,
+    CovalentMarkdownModule,
+    CovalentDynamicFormsModule,
+    CovalentDialogsModule,
     CovalentHttpModule.forRoot({
       interceptors: [{
         interceptor: RequestInterceptor, paths: ['**'],
@@ -85,8 +101,12 @@ export function getAPI(): string {
     Title, {
       provide: USERS_API, useFactory: getAPI,
     }, USER_PROVIDER,
+    GetUsersApi,
+    GetUserByIdApi,
+    CurentUserService
   ], // additional providers needed for this module
   entryComponents: [ ],
   bootstrap: [ AppComponent ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule {}

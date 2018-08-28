@@ -13,7 +13,7 @@ export class AlertsService {
    return this._http.get('data/alerts.json').pipe(
       map((res: Response) => {
         return res.json();
-      }),
+      })
     );
   }
 
@@ -27,7 +27,7 @@ export class AlertsService {
           }
         });
         return item;
-      }),
+      })
     );
   }
 }

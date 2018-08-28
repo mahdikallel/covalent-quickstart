@@ -12,6 +12,7 @@
     "start": "ng serve",
     "e2e": "ng e2e",
     "lint": "ng lint",
+    "rrrr":"yarn global add typescript",
     "reinstall": "rm -rf node_modules tmp deploy dist && yarn install && npm rebuild node-sass",
     "reinstall:latest": "rm -rf node_modules tmp deploy dist && npm install",
     "postinstall": "webdriver-manager update && ./scripts/protractor.sh",

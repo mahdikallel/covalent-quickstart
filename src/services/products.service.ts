@@ -13,7 +13,7 @@ export class ProductsService {
    return this._http.get('data/products.json').pipe(
       map((res: Response) => {
       return res.json();
-      }),
+      })
     );
   }
 
@@ -27,7 +27,7 @@ export class ProductsService {
           }
         });
         return item;
-      }),
+      })
     );
   }
 }
