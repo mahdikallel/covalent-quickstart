@@ -1,0 +1,2996 @@
+swagger: '2.0'
+info:
+  title: Socle Symfony2 API
+  description: Documented API for Socle symfony2
+  version: 1.0.0
+
+schemes:
+- http
+- https
+
+host: localhost:8000
+consumes:
+- application/json
+produces:
+- application/json
+
+
+paths:
+  "/api/users":
+    get:
+      tags:
+      - getUsers
+      summary: users list
+      operationId: showUsersList
+      responses:
+         200:
+           description: "List of users retrieved successfully."
+           schema:
+             type: array
+             items:
+               $ref: "#/definitions/User"
+         404:
+           description: No user found.
+           schema:
+             properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: No user found.
+         500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    post:
+      tags:
+      - addUser
+      summary: add user
+      operationId: addUser
+      parameters:
+      - name: body
+        in: body
+        description: The user Object to create.
+        required: true
+        schema:
+          "$ref": "#/definitions/User"
+      responses:
+        201:
+          description: The Registration has been done successfully.
+          schema:
+            "$ref": "#/definitions/User"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/users/{id}":
+    get:
+      tags:
+      - setActivityUser
+      summary: Info for a specific user
+      operationId: setActivityUser
+      parameters:
+      - name: id
+        in: path
+        description: The id of the user to retrieve
+        required: true
+        type: integer
+      responses:
+        200:
+          description: User retrieved successfully.
+          schema:
+            "$ref": "#/definitions/User"
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: User not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    put:
+      tags:
+      - updateRole
+      summary: update user profile
+      operationId: updateRole
+      parameters:
+      - name: id
+        in: path
+        description: The id of the user to update.
+        required: true
+        type: integer
+      - name: body
+        in: body
+        description: Created user object.
+        required: true
+        schema:
+          "$ref": "#/definitions/User"
+      responses:
+        200:
+          description: The modifications has been done successfully.
+          schema:
+            "$ref": "#/definitions/User"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        404:
+          description: User not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    delete:
+      tags:
+      - deleteUser
+      summary: Delete a specific user
+      operationId: deleteUserById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the user to delete
+        required: true
+        type: integer
+      responses:
+        200:
+          description: The user has been removed successfully.
+          schema:
+            properties:
+              message:
+                type: string
+                default: The user has been deleted successfully.
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: User not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+  "/api/widgetsusers":
+    get:
+      tags:
+      - getWidgetsUsers
+      summary: widgets users list
+      operationId: showWidgetUsersList
+      responses:
+         200:
+           description: "List of widgets-users retrieved successfully."
+           schema:
+             type: array
+             items:
+               $ref: "#/definitions/WidgetUsers"
+         404:
+           description: No widget found.
+           schema:
+             properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: No widget users found.
+         500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    post:
+      tags:
+      - addWidgetUsers
+      summary: add widgetusers
+      operationId: addWidgetUsers
+      parameters:
+      - name: body
+        in: body
+        description: The widget-users Object to create.
+        required: true
+        schema:
+          "$ref": "#/definitions/WidgetUsers"
+      responses:
+        201:
+          description: The Registration has been done successfully.
+          schema:
+            "$ref": "#/definitions/WidgetUsers"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+  "/api/notifications":
+    get:
+      tags:
+      - getNotifications
+      summary: notifications users list
+      operationId: showNootificationsList
+      responses:
+         200:
+           description: "List of Notifications retrieved successfully."
+           schema:
+             type: array
+             items:
+               $ref: "#/definitions/notification"
+         404:
+           description: No notifications found.
+           schema:
+             properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: No notifications  found.
+         500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    post:
+      tags:
+      - addNotifications
+      summary: add notifications
+      operationId: addNotifications
+      parameters:
+      - name: body
+        in: body
+        description: The notification Object to create.
+        required: true
+        schema:
+          "$ref": "#/definitions/notification"
+      responses:
+        201:
+          description: The Registration has been done successfully.
+          schema:
+            "$ref": "#/definitions/notification"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/notifications/{id}":
+        get:
+          tags:
+          - getNotificationById
+          summary: Info for a specific notification
+          operationId: getNotificationsById
+          parameters:
+          - name: id
+            in: path
+            description: The id of the Notifications to retrieve
+            required: true
+            type: number
+          responses:
+            200:
+              description: widget retrieved successfully.
+              schema:
+                "$ref": "#/definitions/notification"
+            400:
+              description: Invalid input id.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid input id.
+            404:
+              description: Notification not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: Notification users not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+        put:
+          tags:
+          - updatenotification
+          summary: update notification
+          operationId: updatenotification
+          parameters:
+          - name: id
+            in: path
+            description: The id of notification to update.
+            required: true
+            type: number
+          - name: body
+            in: body
+            description: Created notification object.
+            required: true
+            schema:
+              "$ref": "#/definitions/notification"
+          responses:
+            200:
+              description: The modifications has been done successfully.
+              schema:
+                "$ref": "#/definitions/notification"
+            400:
+              description: Invalid inputs.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid inputs.
+            404:
+              description: Notification not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: Widget monitoring not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+        delete:
+          tags:
+          - deleteNotification
+          summary: Delete a specific notification
+          operationId: deleteNotificationById
+          parameters:
+          - name: id
+            in: path
+            description: The id of the notification to delete
+            required: true
+            type: integer
+          responses:
+            200:
+              description: The notification has been removed successfully.
+              schema:
+                properties:
+                  message:
+                    type: string
+                    default: The notification has been deleted successfully.
+            400:
+              description: Invalid input id.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid input id.
+            404:
+              description: widget-monitoring not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: widget-users not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+
+  "/api/widgetsusers/{id}":
+    get:
+      tags:
+      - getWidgetUsersById
+      summary: Info for a specific widget users
+      operationId: getWidgetUsersById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widgetusers to retrieve
+        required: true
+        type: number
+      responses:
+        200:
+          description: widget retrieved successfully.
+          schema:
+            "$ref": "#/definitions/WidgetUsers"
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: Widget not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Widget users not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    put:
+      tags:
+      - updateWidgetUsers
+      summary: update widget users
+      operationId: updateWidgetUsers
+      parameters:
+      - name: id
+        in: path
+        description: The id of the user to update.
+        required: true
+        type: number
+      - name: body
+        in: body
+        description: Created widget object.
+        required: true
+        schema:
+          "$ref": "#/definitions/WidgetUsers"
+      responses:
+        200:
+          description: The modifications has been done successfully.
+          schema:
+            "$ref": "#/definitions/WidgetUsers"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        404:
+          description: Widget not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Widget users not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    delete:
+      tags:
+      - deleteWidgetUsers
+      summary: Delete a specific widget users
+      operationId: deleteWidgetUsersById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widget users to delete
+        required: true
+        type: integer
+      responses:
+        200:
+          description: The widget has been removed successfully.
+          schema:
+            properties:
+              message:
+                type: string
+                default: The widget-users has been deleted successfully.
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: widget-users not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: widget-users not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/widgetsprofil":
+    get:
+      tags:
+      - getWidgetsProfil
+      summary: widgets profil list
+      operationId: showWidgetProfilList
+      responses:
+         200:
+           description: "List of widgets-profil retrieved successfully."
+           schema:
+             type: array
+             items:
+               $ref: "#/definitions/WidgetProfil"
+         404:
+           description: No widget  found.
+           schema:
+             properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: No widget profil found.
+         500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    post:
+      tags:
+      - addWidgetProfil
+      summary: add widgetprofil
+      operationId: addWidgetProfil
+      parameters:
+      - name: body
+        in: body
+        description: The widget-users Object to create.
+        required: true
+        schema:
+          "$ref": "#/definitions/WidgetProfil"
+      responses:
+        201:
+          description: The Registration has been done successfully.
+          schema:
+            "$ref": "#/definitions/WidgetProfil"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/widgetsprofil/{id}":
+    get:
+      tags:
+      - getWidgetProfilById
+      summary: Info for a specific widget profil
+      operationId: getWidgetProfilById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widgetprofil to retrieve
+        required: true
+        type: number
+      responses:
+        200:
+          description: widget retrieved successfully.
+          schema:
+            "$ref": "#/definitions/WidgetProfil"
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: Widget not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Widget profil not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    put:
+      tags:
+      - updateWidgetProfil
+      summary: update widget profli
+      operationId: updateWidgetProfil
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widget profil to update.
+        required: true
+        type: number
+      - name: body
+        in: body
+        description: Created widget object.
+        required: true
+        schema:
+          "$ref": "#/definitions/WidgetProfil"
+      responses:
+        200:
+          description: The modifications has been done successfully.
+          schema:
+            "$ref": "#/definitions/WidgetProfil"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        404:
+          description: Widget not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Widget profil not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    delete:
+      tags:
+      - deleteWidgetProfil
+      summary: Delete a specific widget profil
+      operationId: deleteWidgetProfilById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widget profil to delete
+        required: true
+        type: integer
+      responses:
+        200:
+          description: The widget has been removed successfully.
+          schema:
+            properties:
+              message:
+                type: string
+                default: The widget-users has been deleted successfully.
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: widget-users not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: widget-users not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/numberofusers":
+    get:
+      tags:
+      - getNumberOfUsers
+      summary: Info for a number of users
+      operationId: getNumberOfUsers
+      responses:
+        200:
+          description: Number of user retrieved successfully.
+          schema:
+            "$ref": "#/definitions/numberOfUsers"
+        404:
+          description: NumberOfUsers not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Number of user not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+  "/api/numberofuserswithage":
+    get:
+      tags:
+      - getNumberOfUsersWithAge
+      summary: Info for a number of users with age
+      operationId: getNumberOfUsersWithAge
+      responses:
+        200:
+          description: User retrieved successfully.
+          schema:
+            "$ref": "#/definitions/numberOfUsersWithAge"
+        404:
+          description: NumberOfUsersWithAge not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+  "/api/numberofuserswithrole":
+    get:
+      tags:
+      - getNumberOfUsersWithRole
+      summary: Info for a number of users with role
+      operationId: getNumberOfUsersWithRole
+      responses:
+        200:
+          description: User retrieved successfully.
+          schema:
+            "$ref": "#/definitions/numberOfUsersWithRole"
+        404:
+          description: NumberOfUsersWithRole not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+  "/api/numberofuserswithgender":
+    get:
+      tags:
+      - getNumberOfUsersWithGender
+      summary: Info for a number of users with gender
+      operationId: getNumberOfUsersWithGender
+      responses:
+        200:
+          description: User retrieved successfully.
+          schema:
+            "$ref": "#/definitions/numberOfUsersWithGender"
+        404:
+          description: NumberOfUsersWithGender not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/usersconnexion":
+    get:
+      tags:
+      - getUsersConnexion
+      summary: Info for a  users online offline
+      operationId: getUsersConnexion
+      responses:
+        200:
+          description: user retrieved successfully.
+          schema:
+            "$ref": "#/definitions/connexion"
+        404:
+          description: Users not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: user connexion not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/authorities":
+      get:
+        tags:
+        - getAuthorities
+        summary: role list
+        operationId: showAuthorityList
+        responses:
+           200:
+             description: "List of role retrieved successfully."
+             schema:
+               type: array
+               items:
+                 $ref: "#/definitions/Authority"
+           404:
+             description: No role found.
+             schema:
+               properties:
+                code:
+                  type: integer
+                  default: 44
+                message:
+                  type: string
+                  default: No role found.
+           500:
+            description: Internal server error.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 5
+                message:
+                  type: string
+                  default: Internal server error.
+      post:
+        tags:
+        - addAuthority
+        summary: add Authority
+        operationId: addAuthority
+        parameters:
+        - name: body
+          in: body
+          description: The Authority Object to create.
+          required: true
+          schema:
+            "$ref": "#/definitions/Authority"
+        responses:
+          201:
+            description: The Authority has been  successfully created.
+            schema:
+              "$ref": "#/definitions/Authority"
+          400:
+            description: Invalid inputs.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 4
+                message:
+                  type: string
+                  default: Invalid inputs.
+          500:
+            description: Internal server error.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 5
+                message:
+                  type: string
+                  default: Internal server error.
+  "/api/authorities/{id}":
+      get:
+        tags:
+        - getAuthorityById
+        summary: Info for a specific Authority
+        operationId: getAuthorityById
+        parameters:
+        - name: id
+          in: path
+          description: The id of the Authority to retrieve
+          required: true
+          type: integer
+        responses:
+          200:
+            description: Authority retrieved successfully.
+            schema:
+              "$ref": "#/definitions/Authority"
+          400:
+            description: Invalid input id.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 4
+                message:
+                  type: string
+                  default: Invalid input id.
+          404:
+            description: Authority not found.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 44
+                message:
+                  type: string
+                  default: Authority not found.
+          500:
+            description: Internal server error.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 5
+                message:
+                  type: string
+                  default: Internal server error.
+      put:
+        tags:
+        - updateRole
+        summary: update Authority
+        operationId: updateRole
+        parameters:
+        - name: id
+          in: path
+          description: The id of the Authority to update.
+          required: true
+          type: integer
+        - name: body
+          in: body
+          description: Created Authority object.
+          required: true
+          schema:
+            "$ref": "#/definitions/Authority"
+        responses:
+          200:
+            description: The modifications has been done successfully.
+            schema:
+              "$ref": "#/definitions/Authority"
+          400:
+            description: Invalid inputs.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 4
+                message:
+                  type: string
+                  default: Invalid inputs.
+          404:
+            description: Authority not found.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 44
+                message:
+                  type: string
+                  default: Authority not found.
+          500:
+            description: Internal server error.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 5
+                message:
+                  type: string
+                  default: Internal server error.
+      delete:
+        tags:
+        - deleteAuthority
+        summary: Delete a specific Authority
+        operationId: deleteAuthorityById
+        parameters:
+        - name: id
+          in: path
+          description: The id of the Authority to delete
+          required: true
+          type: integer
+        responses:
+          200:
+            description:  Authority has been removed successfully.
+            schema:
+              properties:
+                message:
+                  type: string
+                  default:  Authority has been deleted successfully.
+          400:
+            description: Invalid input id.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 4
+                message:
+                  type: string
+                  default: Invalid input id.
+          404:
+            description: Authority not found.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 44
+                message:
+                  type: string
+                  default: Authority not found.
+          500:
+            description: Internal server error.
+            schema:
+              properties:
+                code:
+                  type: integer
+                  default: 5
+                message:
+                  type: string
+                  default: Internal server error.
+
+  "/api/roles":
+        get:
+          tags:
+          - getRoles
+          summary: roles list
+          operationId: showRolesList
+          responses:
+             200:
+               description: "List of Roles retrieved successfully."
+               schema:
+                 type: array
+                 items:
+                   $ref: "#/definitions/Role"
+             404:
+               description: No Role found.
+               schema:
+                 properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: No Role found.
+             500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+        post:
+          tags:
+          - addRole
+          summary: add Role
+          operationId: addRole
+          parameters:
+          - name: body
+            in: body
+            description: The Role Object to create.
+            required: true
+            schema:
+              "$ref": "#/definitions/Role"
+          responses:
+            201:
+              description: The Role has been  successfully created.
+              schema:
+                "$ref": "#/definitions/Role"
+            400:
+              description: Invalid inputs.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid inputs.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+  "/api/roles/{id}":
+        get:
+          tags:
+          - getRoleById
+          summary: Info for a specific user
+          operationId: getRoleById
+          parameters:
+          - name: id
+            in: path
+            description: The id of the user to retrieve
+            required: true
+            type: integer
+          responses:
+            200:
+              description: Role retrieved successfully.
+              schema:
+                "$ref": "#/definitions/Role"
+            400:
+              description: Invalid input id.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid input id.
+            404:
+              description: Role not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: Role not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+        put:
+          tags:
+          - updateRole
+          summary: update Role
+          operationId: updateRole
+          parameters:
+          - name: id
+            in: path
+            description: The id of the Role to update.
+            required: true
+            type: integer
+          - name: body
+            in: body
+            description: Created Role object.
+            required: true
+            schema:
+              "$ref": "#/definitions/Role"
+          responses:
+            200:
+              description: The modifications has been done successfully.
+              schema:
+                "$ref": "#/definitions/Role"
+            400:
+              description: Invalid inputs.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid inputs.
+            404:
+              description: Role not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: Role not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+        delete:
+          tags:
+          - deleteRole
+          summary: Delete a specific Role
+          operationId: deleteRoleById
+          parameters:
+          - name: id
+            in: path
+            description: The id of the Role to delete
+            required: true
+            type: integer
+          responses:
+            200:
+              description: The Role has been removed successfully.
+              schema:
+                properties:
+                  message:
+                    type: string
+                    default: The Role has been deleted successfully.
+            400:
+              description: Invalid input id.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid input id.
+            404:
+              description: Role not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: Role not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+  /api/roles/{roleDesignation}:
+    get:
+      tags:
+      - getRoleByDesignation
+      summary: Find role by designation
+      operationId: getRoleByDesignation
+      parameters:
+      - name: roleDesignation
+        in: path
+        description: roleDesignation
+        required: true
+        type: string
+      responses:
+                  200:
+                    description: Role retrieved successfully.
+                    schema:
+                      "$ref": "#/definitions/Role"
+                  400:
+                    description: Invalid input id.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 4
+                        message:
+                          type: string
+                          default: Invalid input id.
+                  404:
+                    description: Role not found.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 44
+                        message:
+                          type: string
+                          default: Role not found.
+                  500:
+                    description: Internal server error.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 5
+                        message:
+                          type: string
+                          default: Internal server error.
+  /:
+      get:
+        produces:
+          - text/html
+        responses:
+          default:
+            description: The Swagger Person Store homepage
+            schema:
+              type: file
+              default:
+                $ref: index.html
+  /contact:
+          tags:
+          - ContactApi
+          get:
+            tags:
+            - GetContact
+            description: Return tous les message envoier par le formulaire de contact
+            operationId: getContactPersons
+            responses:
+              default:
+                description: Returns the matching contact person
+                schema:
+                  type: array
+                  items:
+                    $ref: "#/definitions/contact"
+                headers:
+                  last-modified:
+                    type: string
+                    description: The date/time that a person was last modified
+          post:
+            tags:
+            - PostContact
+            description: Creates a new contact person in the store
+            operationId: addContactPerson
+            parameters:
+              - name: contactPerson
+                in: body
+                description: The contact person to add to the store
+                required: true
+                schema:
+                  $ref: "#/definitions/contact"
+            responses:
+              201:
+                description: Returns the newly-added person
+                schema:
+                  $ref: "#/definitions/contact"
+                headers:
+                  Location:
+                    type: string
+                    description: The URL of the newly-added person
+  "/contact/{id}":
+        get:
+          tags:
+          - getMessageById
+          summary: Info for a specific user
+          operationId: getMaessageById
+          parameters:
+          - name: id
+            in: path
+            description: The id of the user to retrieve
+            required: true
+            type: integer
+          responses:
+            200:
+              description: Role retrieved successfully.
+              schema:
+                "$ref": "#/definitions/contact"
+            400:
+              description: Invalid input id.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid input id.
+            404:
+              description: Role not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: Role not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+        put:
+           tags:
+           - updateMessage
+           summary: update Message
+           operationId: updateMessage
+           parameters:
+           - name: id
+             in: path
+             description: The id of the message to update.
+             required: true
+             type: integer
+           - name: body
+             in: body
+             description: Created message object.
+             required: true
+             schema:
+               "$ref": "#/definitions/contact"
+           responses:
+             200:
+               description: The modifications has been done successfully.
+               schema:
+                 "$ref": "#/definitions/contact"
+             400:
+               description: Invalid inputs.
+               schema:
+                 properties:
+                   code:
+                     type: integer
+                     default: 4
+                   message:
+                     type: string
+                     default: Invalid inputs.
+             404:
+               description: Role not found.
+               schema:
+                 properties:
+                   code:
+                     type: integer
+                     default: 44
+                   message:
+                     type: string
+                     default: Role not found.
+             500:
+               description: Internal server error.
+               schema:
+                 properties:
+                   code:
+                     type: integer
+                     default: 5
+                   message:
+                     type: string
+                     default: Internal server error.
+        delete:
+          tags:
+          - deleteMessage
+          summary: Delete a specific Message
+          operationId: deleteMessageById
+          parameters:
+          - name: id
+            in: path
+            description: The id of the Message to delete
+            required: true
+            type: integer
+          responses:
+            200:
+              description: The Message has been removed successfully.
+              schema:
+                properties:
+                  message:
+                    type: string
+                    default: The Message has been deleted successfully.
+            400:
+              description: Invalid input id.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid input id.
+            404:
+              description: Message not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: Role not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+
+  "/api/logs":
+            get:
+              tags:
+              - getLogs
+              summary: Logs list
+              operationId: showLogsList
+              responses:
+                 200:
+                   description: "List of Logs retrieved successfully."
+                   schema:
+                     type: array
+                     items:
+                       $ref: "#/definitions/Log"
+                 404:
+                   description: No Log found.
+                   schema:
+                     properties:
+                      code:
+                        type: integer
+                        default: 44
+                      message:
+                        type: string
+                        default: No Log found.
+                 500:
+                  description: Internal server error.
+                  schema:
+                    properties:
+                      code:
+                        type: integer
+                        default: 5
+                      message:
+                        type: string
+                        default: Internal server error.
+            post:
+              tags:
+              - addLog
+              summary: add Log
+              operationId: addLog
+              parameters:
+              - name: body
+                in: body
+                description: The Log Object to create.
+                required: true
+                schema:
+                  "$ref": "#/definitions/Log"
+              responses:
+                201:
+                  description: The Log has been  successfully created.
+                  schema:
+                    "$ref": "#/definitions/Log"
+                400:
+                  description: Invalid inputs.
+                  schema:
+                    properties:
+                      code:
+                        type: integer
+                        default: 4
+                      message:
+                        type: string
+                        default: Invalid inputs.
+                500:
+                  description: Internal server error.
+                  schema:
+                    properties:
+                      code:
+                        type: integer
+                        default: 5
+                      message:
+                        type: string
+                        default: Internal server error.
+
+  "/api/currentLogLevel":
+              get:
+                tags:
+                - getCurrentLogLevel
+                summary: CurrentLogLevel list
+                operationId: showCurrentLogLevelList
+                responses:
+                   200:
+                     description: "List of CurrentLogLevel retrieved successfully."
+                     schema:
+                       type: array
+                       items:
+                         $ref: "#/definitions/CurrentLog"
+                   404:
+                     description: No CurrentLogLevel found.
+                     schema:
+                       properties:
+                        code:
+                          type: integer
+                          default: 44
+                        message:
+                          type: string
+                          default: No CurrentLog found.
+                   500:
+                    description: Internal server error.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 5
+                        message:
+                          type: string
+                          default: Internal server error.
+              post:
+                tags:
+                - addCurrentLogLevel
+                summary: add CurrentLogLevel
+                operationId: addCurrentLogLevel
+                parameters:
+                - name: body
+                  in: body
+                  description: The CurrentLog Object to create.
+                  required: true
+                  schema:
+                    "$ref": "#/definitions/CurrentLog"
+                responses:
+                  201:
+                    description: The CurrentLogLevel has been  successfully created.
+                    schema:
+                      "$ref": "#/definitions/CurrentLog"
+                  400:
+                    description: Invalid CurrentLog.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 4
+                        message:
+                          type: string
+                          default: Invalid inputs.
+                  500:
+                    description: Internal server error.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 5
+                        message:
+                          type: string
+                          default: Internal server error.
+
+  "/api/currentLogLevel/{id}":
+        get:
+          tags:
+          - getcurrentLogLevelById
+          summary: Info for a specific currentLogLevel
+          operationId: getCurrentLogLevelById
+          parameters:
+          - name: id
+            in: path
+            description: The id of the currentLogLevel to retrieve
+            required: true
+            type: integer
+          responses:
+            200:
+              description: currentLogLevel retrieved successfully.
+              schema:
+                "$ref": "#/definitions/CurrentLog"
+            400:
+              description: Invalid input id.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid input id.
+            404:
+              description: currentLogLevel not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: currentLogLevel not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+        put:
+          tags:
+          - updateCurrentLogLevel
+          summary: update updateCurrentLogLevel
+          operationId: updateCurrentLogLevel
+          parameters:
+          - name: id
+            in: path
+            description: The id of the currentLogLevel to update.
+            required: true
+            type: integer
+          - name: body
+            in: body
+            description: Created currentLogLevel object.
+            required: true
+            schema:
+              "$ref": "#/definitions/CurrentLog"
+          responses:
+            200:
+              description: The modifications has been done successfully.
+              schema:
+                "$ref": "#/definitions/CurrentLog"
+            400:
+              description: Invalid inputs.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 4
+                  message:
+                    type: string
+                    default: Invalid inputs.
+            404:
+              description: currentLogLevel not found.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: currentLogLevel not found.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                  code:
+                    type: integer
+                    default: 5
+                  message:
+                    type: string
+                    default: Internal server error.
+
+  "/api/activities":
+        get:
+          tags:
+          - getActivities
+          summary: Activity list
+          operationId: showActivityList
+          responses:
+             200:
+               description: "List of Activities retrieved successfully."
+               schema:
+                 type: array
+                 items:
+                   $ref: "#/definitions/Activity"
+             404:
+               description: No Activity found.
+               schema:
+                 properties:
+                  code:
+                    type: integer
+                    default: 44
+                  message:
+                    type: string
+                    default: No Activity found.
+             500:
+               description: Internal server error.
+               schema:
+                 properties:
+                  code:
+                     type: integer
+                     default: 5
+                  message:
+                     type: string
+                     default: Internal server error.
+        post:
+          tags:
+          - addActivity
+          summary: add Activity
+          operationId: addActivity
+          parameters:
+          - name: body
+            in: body
+            description: The Activity Object to create.
+            required: true
+            schema:
+              "$ref": "#/definitions/Activity"
+          responses:
+            201:
+              description: The Activity has been  successfully created.
+              schema:
+                "$ref": "#/definitions/Activity"
+            400:
+              description: Invalid inputs.
+              schema:
+                properties:
+                 code:
+                  type: integer
+                  default: 4
+                 message:
+                  type: string
+                  default: Invalid inputs.
+            500:
+              description: Internal server error.
+              schema:
+                properties:
+                 code:
+                   type: integer
+                   default: 5
+                 message:
+                   type: string
+                   default: Internal server error.
+  "/api/activities/{id}":
+          get:
+            tags:
+            - getActivityById
+            summary: Info for a specific Activity
+            operationId: getActivityById
+            parameters:
+            - name: id
+              in: path
+              description: The id of the Activity to retrieve
+              required: true
+              type: integer
+            responses:
+              200:
+                description: Activity retrieved successfully.
+                schema:
+                  "$ref": "#/definitions/Activity"
+              400:
+                description: Invalid input id.
+                schema:
+                  properties:
+                    code:
+                      type: integer
+                      default: 4
+                    message:
+                      type: string
+                      default: Invalid input id.
+              404:
+                description: Activity not found.
+                schema:
+                  properties:
+                    code:
+                      type: integer
+                      default: 44
+                    message:
+                      type: string
+                      default: Activity not found.
+              500:
+                description: Internal server error.
+                schema:
+                  properties:
+                    code:
+                      type: integer
+                      default: 5
+                    message:
+                      type: string
+                      default: Internal server error.
+  "/api/activities/user/{userId}":
+            get:
+              tags:
+              - getActivityByUserId
+              summary: Info for a specific Activity
+              operationId: getActivityByUserId
+              parameters:
+              - name: userId
+                in: path
+                description: The UserId of the Activity to retrieve
+                required: true
+                type: integer
+              responses:
+                200:
+                  description: Activity retrieved successfully.
+                  schema:
+                    type: array
+                    items:
+                     $ref: "#/definitions/Activity"
+                400:
+                  description: Invalid input UserId.
+                  schema:
+                    properties:
+                      code:
+                        type: integer
+                        default: 4
+                      message:
+                        type: string
+                        default: Invalid input UserId.
+                404:
+                  description: Activity not found.
+                  schema:
+                    properties:
+                      code:
+                        type: integer
+                        default: 44
+                      message:
+                        type: string
+                        default: Activity not found.
+                500:
+                  description: Internal server error.
+                  schema:
+                    properties:
+                      code:
+                        type: integer
+                        default: 5
+                      message:
+                        type: string
+                        default: Internal server error.
+
+  "/api/activities/objects/{objectName}":
+              get:
+                tags:
+                - getActivityByObjectName
+                summary: Info for a specific Activity
+                operationId: getActivityByObjectName
+                parameters:
+                - name: objectName
+                  in: path
+                  description: The ObjectName of the Activity to retrieve
+                  required: true
+                  type: string
+                responses:
+                  200:
+                    description: Activity retrieved successfully.
+                    schema:
+                     type: array
+                     items:
+                       $ref: "#/definitions/Activity"
+                  400:
+                    description: Invalid input ObjectName.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 4
+                        message:
+                          type: string
+                          default: Invalid input ObjectName.
+                  404:
+                    description: Activity not found.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 44
+                        message:
+                          type: string
+                          default: Activity not found.
+                  500:
+                    description: Internal server error.
+                    schema:
+                      properties:
+                        code:
+                          type: integer
+                          default: 5
+                        message:
+                          type: string
+                          default: Internal server error.
+  "/api/activities/action/{actionName}":
+                get:
+                  tags:
+                  - getActivityByActionName
+                  summary: Info for a specific Activity
+                  operationId: getActivityByActionName
+                  parameters:
+                  - name: actionName
+                    in: path
+                    description: The action of the Activity to retrieve
+                    required: true
+                    type: string
+                  responses:
+                    200:
+                      description: Activity retrieved successfully.
+                      schema:
+                       type: array
+                       items:
+                         $ref: "#/definitions/Activity"
+                    400:
+                      description: Invalid input actionName.
+                      schema:
+                        properties:
+                          code:
+                            type: integer
+                            default: 4
+                          message:
+                            type: string
+                            default: Invalid input actionName.
+                    404:
+                      description: Activity not found.
+                      schema:
+                        properties:
+                          code:
+                            type: integer
+                            default: 44
+                          message:
+                            type: string
+                            default: Activity not found.
+                    500:
+                      description: Internal server error.
+                      schema:
+                        properties:
+                          code:
+                            type: integer
+                            default: 5
+                          message:
+                            type: string
+                            default: Internal server error.
+
+  "/api/widgetsmonitoring":
+    get:
+      tags:
+      - getWidgetsMMonitoring
+      summary: widgets monitoring list
+      operationId: showWidgetMonitoringList
+      responses:
+         200:
+           description: "List of widgets-monitoring retrieved successfully."
+           schema:
+             type: array
+             items:
+               "$ref" : "#/definitions/WidgetMonitoring"
+         404:
+           description: No widget found.
+           schema:
+             properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: No widget monitoring found.
+         500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    post:
+      tags:
+      - addWidgetMonitoring
+      summary: add widgetmonitoring
+      operationId: addWidgetMonitoring
+      parameters:
+      - name: body
+        in: body
+        description: The widget-monitoring Object to create.
+        required: true
+        schema:
+          "$ref": "#/definitions/WidgetMonitoring"
+      responses:
+        201:
+          description: The Registration has been done successfully.
+          schema:
+            "$ref": "#/definitions/WidgetMonitoring"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/widgetsmonitoring/{id}":
+    get:
+      tags:
+      - getWidgetMonitoringById
+      summary: Info for a specific widget monitoring
+      operationId: getWidgetMonitoringById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widgetmonitoring to retrieve
+        required: true
+        type: number
+      responses:
+        200:
+          description: widget retrieved successfully.
+          schema:
+            "$ref": "#/definitions/WidgetMonitoring"
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: Widget not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Widget users not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    put:
+      tags:
+      - updateWidgetMonitoring
+      summary: update widget monitoring
+      operationId: updateWidgetMonitoring
+      parameters:
+      - name: id
+        in: path
+        description: The id of the user to update.
+        required: true
+        type: number
+      - name: body
+        in: body
+        description: Created widget object.
+        required: true
+        schema:
+          "$ref": "#/definitions/WidgetMonitoring"
+      responses:
+        200:
+          description: The modifications has been done successfully.
+          schema:
+            "$ref": "#/definitions/WidgetMonitoring"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        404:
+          description: Widget not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Widget monitoring not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    delete:
+      tags:
+      - deleteWidgetMonitoring
+      summary: Delete a specific widget monitoring
+      operationId: deleteWidgetMonitoringById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widget monitoring to delete
+        required: true
+        type: integer
+      responses:
+        200:
+          description: The widget has been removed successfully.
+          schema:
+            properties:
+              message:
+                type: string
+                default: The widget-monitoring has been deleted successfully.
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: widget-monitoring not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: widget-users not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/widgetsnotifications":
+    get:
+      tags:
+      - getWidgetsNotifications
+      summary: widgets notifications list
+      operationId: showWidgetNotificationsList
+      responses:
+         200:
+           description: "List of widgets-notifications retrieved successfully."
+           schema:
+             type: array
+             items:
+               "$ref" : "#/definitions/WidgetNotification"
+         404:
+           description: No widget found.
+           schema:
+             properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: No widget notification found.
+         500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    post:
+      tags:
+      - addWidgetNotification
+      summary: add widgetnotification
+      operationId: addWidgetNotification
+      parameters:
+      - name: body
+        in: body
+        description: The widget-notification Object to create.
+        required: true
+        schema:
+          "$ref": "#/definitions/WidgetNotification"
+      responses:
+        201:
+          description: The Registration has been done successfully.
+          schema:
+            "$ref": "#/definitions/WidgetNotification"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+  "/api/widgetsnotifications/{id}":
+    get:
+      tags:
+      - getWidgetNotificationById
+      summary: Info for a specific widget Notification
+      operationId: getWidgetNotificationById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widgetNotification to retrieve
+        required: true
+        type: number
+      responses:
+        200:
+          description: widget retrieved successfully.
+          schema:
+            "$ref": "#/definitions/WidgetNotification"
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: Widget not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Widget notificaition not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    put:
+      tags:
+      - updateWidgetNotification
+      summary: update widget notification
+      operationId: updateWidgetNotification
+      parameters:
+      - name: id
+        in: path
+        description: The id of the notification to update.
+        required: true
+        type: number
+      - name: body
+        in: body
+        description: Created widget object.
+        required: true
+        schema:
+          "$ref": "#/definitions/WidgetNotification"
+      responses:
+        200:
+          description: The modifications has been done successfully.
+          schema:
+            "$ref": "#/definitions/WidgetNotification"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        404:
+          description: Widget not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: Widget notification not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    delete:
+      tags:
+      - deleteWidgetNotification
+      summary: Delete a specific widget notification
+      operationId: deleteWidgetNotificationById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the widget notification to delete
+        required: true
+        type: integer
+      responses:
+        200:
+          description: The widget has been removed successfully.
+          schema:
+            properties:
+              message:
+                type: string
+                default: The widget-notification has been deleted successfully.
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: widget-notification not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: widget-notification not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+
+
+definitions:
+  User:
+    type: object
+    required:
+    - username
+    - firstname
+    - lastname
+    - password
+    - id
+    - roles
+    properties:
+      username:
+        type: string
+        example: firas.jenzri
+        minLength: 3
+        maxLength: 20
+      firstname:
+        type: string
+        example: Firas
+        minLength: 3
+        maxLength: 20
+      lastname:
+        type: string
+        example: Jenzri
+        minLength: 3
+        maxLength: 20
+      password:
+        type: string
+        example: '12345'
+      email:
+        type: string
+        example: firas.jenzri.stg@sifast.com
+        minLength: 6
+        maxLength: 40
+      dateOfBirth:
+        type: string
+        example: 01/01/2000
+      gender:
+        type: string
+        enum:
+        - male
+        - female
+        example: male
+      phone:
+        type: string
+        example: ''
+      picture:
+        type: file
+        description: The picture to upload
+      roles:
+        type: array
+        uniqueItems: true
+        items:
+          $ref: "#/definitions/Role"
+
+  WidgetUsers:
+     type: object
+     required:
+     - id
+     - id_user
+     properties:
+       name:
+         type: string
+         example: widget_user
+       position:
+         type: string
+         example: 1
+       etat:
+         type: string
+         enum:
+          - open
+          - close
+         example: open
+       category:
+         type: string
+         exemple: Age
+       typeChart:
+         type: string
+         example: bar
+       id_user:
+         type: string
+         example: 1
+
+  WidgetProfil:
+     type: object
+     required:
+     - id
+     - id_user
+     properties:
+       name:
+         type: string
+         example: widget_profil
+       position:
+         type: string
+         example: 1
+       parameters:
+         type: array
+         items:
+           type: string
+       id_user:
+         type: string
+         example: 1
+
+  Authority:
+      type: object
+      required:
+      - designation
+      - description
+      - id
+      properties:
+        designation:
+          type: string
+          example: AUTH_USER_CREATE
+          minLength: 3
+          maxLength: 100
+        description:
+          type: string
+          example: You have permission to create.
+          minLength: 5
+          maxLength: 200
+
+  Role:
+        type: object
+        required:
+        - designation
+        - description
+        - id
+        - authorities
+        properties:
+          designation:
+            type: string
+            example: ROLE_ADMIN
+            minLength: 3
+            maxLength: 100
+          description:
+            type: string
+            example: admin ,Super Administrator
+            minLength: 5
+            maxLength: 200
+          authorities:
+            type: array
+            uniqueItems: true
+            items:
+              $ref: "#/definitions/Authority"
+
+  contact:
+      type: object
+      properties:
+        id:
+          type: integer
+        emailFrom:
+          type: string
+        emailTo:
+          type: string
+        message:
+          type: string
+        checked:
+          type: boolean
+
+  numberOfUsers:
+     type: string
+
+  numberOfUsersWithGender:
+      type: array
+      items:
+        type: object
+        properties:
+          male:
+            type: string
+          female:
+            type: string
+
+  numberOfUsersWithRole:
+      type: array
+      items:
+        type: object
+        properties:
+          roles:
+            type: array
+            items:
+              type: string
+          count:
+            type: array
+            items:
+              type: string
+
+  numberOfUsersWithAge:
+      type: array
+      items:
+        type: object
+        properties:
+          age:
+            type: array
+            items:
+             type: string
+          count:
+            type: array
+            items:
+              type: string
+
+  Log:
+      type: array
+      items:
+        type: object
+        properties:
+          level:
+            type: string
+          time:
+            type: string
+          message:
+            type: string
+          userId:
+            type: integer
+
+  CurrentLog:
+          type: object
+          required:
+          - id
+          - logLevel
+          - current
+          properties:
+            id:
+              type: integer
+            logLevel:
+              type: string
+            current:
+              type: integer
+
+  Activity:
+         type: object
+         required:
+         - id
+         - userId
+         - action
+         - objectName
+         properties:
+           id:
+             type: integer
+           userId:
+             type: integer
+           action:
+             type: string
+           objectName:
+             type: string
+           oldObject:
+             type: object
+           newObject:
+             type: object
+           time:
+             type: string
+
+  WidgetMonitoring:
+     type: object
+     required:
+     - id
+     - id_user
+     properties:
+       name:
+         type: string
+         example: widget_monitoring
+       position:
+         type: string
+         example: 1
+       id_user:
+         type: string
+         example: 1
+
+  WidgetNotification:
+       type: object
+       required:
+       - id
+       - id_user
+       properties:
+         name:
+           type: string
+           example: widget_monitoring
+         position:
+           type: string
+           example: 1
+         id_user:
+           type: string
+           example: 1
+
+  connexion:
+     type: object
+     properties:
+        usersOn:
+          type: array
+          items:
+            type: string
+        usersOff:
+          type: array
+          items:
+            type: string
+
+  notification:
+      type: object
+      required:
+      - id
+      - id_user
+      properties:
+        id_user:
+          type: string
+          exemple: 1
+        numberNotifications:
+          type: number
+          example: 4
+        checked:
+          type: boolean
+          exemple: true

@@ -1,0 +1,3556 @@
+[
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:43:54:306",
+    "action": "SIGNIN",
+    "objectName": "AUTHENTIFICATION",
+    "id": 1
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:20:31",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 2
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:24:266",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 3
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:25:602",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 4
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:25:817",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 5
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:27:261",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 6
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:29:189",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 7
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:29:533",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 8
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:31:288",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 9
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:31:928",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 10
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:34:949",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 11
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:42:456",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 12
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:47:42",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 13
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:48:512",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 14
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:49:309",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 15
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:52:595",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 16
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:45:53:585",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 17
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:46:28:488",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 18
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:46:31:424",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 19
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:46:32:888",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 20
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:47:11:37",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 21
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:47:14:36",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 22
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:47:16:224",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 23
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:48:6:955",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 24
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:48:22:724",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 25
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:48:23:710",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 26
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:49:35:859",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 27
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:49:37:253",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 28
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:49:38:97",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 29
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:54:43:486",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 30
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:54:46:389",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 31
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:54:48:242",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 32
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 9:54:51:189",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 33
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:2:20:656",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 34
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:2:21:65",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 35
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:2:22:442",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 36
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:2:36:872",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 37
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:21:54:118",
+    "action": "SIGNIN",
+    "objectName": "AUTHENTIFICATION",
+    "id": 38
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:22:1:521",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 39
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:22:2:959",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 40
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:22:15:998",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 41
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:31:7:166",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 42
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:31:15:732",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 43
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:31:24:748",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 44
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:31:25:895",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 45
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:31:26:549",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 46
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:31:50:796",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 47
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:31:54:527",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 48
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:33:40:857",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 49
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:33:45:349",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 50
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:34:56:960",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 51
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:37:49:901",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 52
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:39:55:695",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 53
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:39:56:565",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 54
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:40:3:333",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 55
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:40:7:215",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 56
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:40:8:676",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 57
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:40:9:632",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 58
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:40:59:936",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 59
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:41:0:712",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 60
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:41:1:919",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 61
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:41:5:628",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 62
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:41:30:147",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 63
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:41:34:623",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 64
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:41:36:870",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 65
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:42:10:331",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 66
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:42:33:560",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 67
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:42:35:754",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 68
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:43:4:643",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 69
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:43:6:924",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 70
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:43:8:776",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 71
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:43:23:680",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 72
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:43:25:270",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 73
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:45:24:322",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 74
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 10:45:25:31",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 75
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 11:23:53:593",
+    "action": "SIGNIN",
+    "objectName": "AUTHENTIFICATION",
+    "id": 76
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 11:24:0:164",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 77
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 11:25:12:73",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 78
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 11:25:12:849",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 79
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 11:29:8:834",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 80
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 11:29:29:42",
+    "action": "SIGNOUT",
+    "objectName": "AUTHENTIFICATION",
+    "id": 81
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 11:29:38:184",
+    "action": "SIGNIN",
+    "objectName": "AUTHENTIFICATION",
+    "id": 82
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 11:30:21:108",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 83
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 11:31:10:820",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 84
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:46:30:279",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 85
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:46:31:405",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 86
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 12:57:10:261",
+    "action": "SIGNIN",
+    "objectName": "AUTHENTIFICATION",
+    "id": 87
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 12:57:14:460",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 88
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 12:57:15:898",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 89
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 12:57:16:267",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 90
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 12:58:14:906",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 91
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:35:900",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 92
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:36:186",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 93
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:37:435",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 94
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:37:943",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 95
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:38:240",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 96
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:38:817",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 97
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:39:193",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 98
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:39:734",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 99
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:40:224",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 100
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:41:122",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 101
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:41:704",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 102
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:42:15",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 103
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:42:631",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 104
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 12:58:43:212",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 105
+  },
+  {
+    "userId": 20,
+    "time": "1/6/2017 13:0:56:285",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 106
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:2:50:69",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 107
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:2:51:410",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 108
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:24:28:936",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 109
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:24:35:984",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 110
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:26:36:879",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 111
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:26:38:996",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 112
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:26:40:459",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 113
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:26:42:72",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 114
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:29:25:723",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 115
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:32:16:456",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 116
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:32:18:676",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 117
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:32:41:531",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 118
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:32:50:649",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 119
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:39:12:494",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 120
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:39:14:778",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 121
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:39:16:49",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 122
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:39:16:910",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 123
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:42:38:223",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 124
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:42:38:755",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 125
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:42:40:372",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 126
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:42:41:246",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 127
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:42:47:223",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 128
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:46:26:342",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 129
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:47:23:680",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 130
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:49:43:210",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 131
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:49:44:941",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 132
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:50:53:662",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 133
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:52:32:133",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 134
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:53:38:854",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 135
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 13:58:57:402",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 136
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:4:29:400",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 137
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:6:30:660",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 138
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:8:26:159",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 139
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:9:35:680",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 140
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:10:3:314",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 141
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:13:48:382",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 142
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:13:59:67",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 143
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:14:30:753",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 144
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:14:59:119",
+    "action": "UPDATE",
+    "objectName": "USER",
+    "newObject": {
+      "username": "ahmed",
+      "firstname": "HadjTaieb",
+      "lastname": "Ahmed",
+      "email": "ahmed.hadjtaieb.stg@sifast.com",
+      "password": "12345",
+      "dateOfBirth": "22/10/1992",
+      "gender": "male",
+      "phone": "29758658",
+      "id": "20",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        }
+      ]
+    },
+    "oldObject": {
+      "username": "ahmed",
+      "firstname": "HadjTaieb",
+      "lastname": "Ahmed",
+      "password": "12345",
+      "email": "ahmed.hadjtaieb.stg@sifast.com",
+      "dateOfBirth": "22/10/1992",
+      "gender": "male",
+      "phone": "29758658",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_GUEST",
+          "description": "Role: Private user",
+          "authorities": [],
+          "id": 6
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": "20"
+    },
+    "id": 145
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:14:59:155",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 146
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:15:12:256",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 147
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:17:7:616",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 148
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:17:32:152",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 149
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:17:33:543",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 150
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:17:45:324",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 151
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:17:49:721",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 152
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:19:18:603",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 153
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:19:19:350",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 154
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:20:40:367",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 155
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:21:9:953",
+    "action": "CREATE",
+    "objectName": "ROLE",
+    "newObject": {
+      "designation": "ROLE_SSSS",
+      "description": "sdsdsdsd",
+      "authorities": [
+        {
+          "designation": "AUTH_ROLE_CREATE",
+          "description": "You have permission to create a role",
+          "id": 2
+        }
+      ]
+    },
+    "id": 156
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:21:25:679",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 157
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:21:40:353",
+    "action": "UPDATE",
+    "objectName": "ROLE",
+    "newObject": {
+      "designation": "ROLE_SSSS",
+      "description": "sdsdsdsd",
+      "id": 21,
+      "authorities": [
+        {
+          "designation": "AUTH_USER_CREATE",
+          "description": "You have permission to create a user",
+          "id": 1
+        },
+        {
+          "designation": "AUTH_USER_READ",
+          "description": "You have permission to show list of users",
+          "id": 9
+        },
+        {
+          "designation": "AUTH_PERM_READ",
+          "description": "You have permission to consult list of permissions",
+          "id": 16
+        },
+        {
+          "designation": "AUTH_LOG_READ",
+          "description": "You have permission to consult list of permissions",
+          "id": 17
+        }
+      ]
+    },
+    "oldObject": {
+      "designation": "ROLE_SSSS",
+      "description": "sdsdsdsd",
+      "authorities": [
+        {
+          "designation": "AUTH_ROLE_CREATE",
+          "description": "You have permission to create a role",
+          "id": 2
+        }
+      ],
+      "id": 21
+    },
+    "id": 158
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:21:40:424",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 159
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:21:51:860",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 160
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:22:53:812",
+    "action": "CREATE",
+    "objectName": "USER",
+    "newObject": {
+      "username": "fsdf",
+      "firstname": "sdfs²",
+      "lastname": "sdfvsdf",
+      "password": "12345",
+      "email": "mahdi-kallel@live.fr",
+      "dateOfBirth": "11.11.1999",
+      "gender": "female",
+      "phone": "",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ]
+    },
+    "id": 161
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:27:49:711",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 162
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:28:25:877",
+    "action": "CREATE",
+    "objectName": "USER",
+    "newObject": {
+      "username": "sdf",
+      "firstname": "sdf",
+      "lastname": "sdfsd",
+      "password": "12345",
+      "email": "sdfdsf@gfds",
+      "dateOfBirth": "11.11.1199",
+      "gender": "female",
+      "phone": "5252525",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        },
+        {
+          "designation": "ROLE_SSSS",
+          "description": "sdsdsdsd",
+          "id": 21,
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ]
+        }
+      ]
+    },
+    "id": 163
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:30:11:865",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 164
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:30:29:633",
+    "action": "CREATE",
+    "objectName": "ROLE",
+    "newObject": {
+      "designation": "ROLE_ADMIN55555",
+      "description": "sdfdsgdsgdfs",
+      "authorities": [
+        {
+          "designation": "AUTH_USER_CREATE",
+          "description": "You have permission to create a user",
+          "id": 1
+        },
+        {
+          "designation": "AUTH_ROLE_UPDATE",
+          "description": "You have permission to update a role ",
+          "id": 3
+        },
+        {
+          "designation": "AUTH_ROLE_AFFECT",
+          "description": "You have permission to affect a role",
+          "id": 4
+        },
+        {
+          "designation": "AUTH_USER_DELETE",
+          "description": "You have permission to delete a user",
+          "id": 7
+        },
+        {
+          "designation": "AUTH_PERM_AFFECT",
+          "description": "You have permission to affect a permission",
+          "id": 15
+        },
+        {
+          "designation": "AUTH_LOG_READ",
+          "description": "You have permission to consult list of permissions",
+          "id": 17
+        }
+      ]
+    },
+    "id": 165
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:30:47:435",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 166
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:30:55:713",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 167
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:30:58:579",
+    "action": "DELETE",
+    "objectName": "ROLE",
+    "oldObject": {
+      "designation": "ROLE_SSSS",
+      "description": "sdsdsdsd",
+      "id": 21,
+      "authorities": [
+        {
+          "designation": "AUTH_USER_CREATE",
+          "description": "You have permission to create a user",
+          "id": 1
+        },
+        {
+          "designation": "AUTH_USER_READ",
+          "description": "You have permission to show list of users",
+          "id": 9
+        },
+        {
+          "designation": "AUTH_PERM_READ",
+          "description": "You have permission to consult list of permissions",
+          "id": 16
+        },
+        {
+          "designation": "AUTH_LOG_READ",
+          "description": "You have permission to consult list of permissions",
+          "id": 17
+        }
+      ]
+    },
+    "id": 168
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:30:58:672",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 169
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:31:0:999",
+    "action": "DELETE",
+    "objectName": "ROLE",
+    "oldObject": {
+      "designation": "ROLE_ADMIN55555",
+      "description": "sdfdsgdsgdfs",
+      "authorities": [
+        {
+          "designation": "AUTH_USER_CREATE",
+          "description": "You have permission to create a user",
+          "id": 1
+        },
+        {
+          "designation": "AUTH_ROLE_UPDATE",
+          "description": "You have permission to update a role ",
+          "id": 3
+        },
+        {
+          "designation": "AUTH_ROLE_AFFECT",
+          "description": "You have permission to affect a role",
+          "id": 4
+        },
+        {
+          "designation": "AUTH_USER_DELETE",
+          "description": "You have permission to delete a user",
+          "id": 7
+        },
+        {
+          "designation": "AUTH_PERM_AFFECT",
+          "description": "You have permission to affect a permission",
+          "id": 15
+        },
+        {
+          "designation": "AUTH_LOG_READ",
+          "description": "You have permission to consult list of permissions",
+          "id": 17
+        }
+      ],
+      "id": 24
+    },
+    "id": 170
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:31:1:70",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 171
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:31:5:577",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 172
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:31:14:954",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 173
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:31:15:602",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 174
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:31:18:96",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 175
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:37:54:487",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 176
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:4:409",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 177
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:5:398",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 178
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:6:850",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 179
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:8:358",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 180
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:9:839",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 181
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:11:497",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 182
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:14:890",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 183
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:16:162",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 184
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:20:221",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 185
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:26:212",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 186
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:27:224",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 187
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:37:594",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 188
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:38:38:801",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 189
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:39:44:244",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 190
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:39:53:930",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 191
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:9:90",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 192
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:11:860",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 193
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:13:623",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 194
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:32:15",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 195
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:32:807",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 196
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:34:610",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 197
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:40:161",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 198
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:49:150",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 199
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:40:49:893",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 200
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:43:25:849",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 201
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:45:21:185",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 202
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:45:29:659",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 203
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:46:37:557",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 204
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:46:38:83",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 205
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:47:21:844",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 206
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:47:24:143",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 207
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:47:30:721",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 208
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:47:32:170",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 209
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:47:37:74",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 210
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:48:25:684",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 211
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:48:35:90",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 212
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:48:46:4",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 213
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:48:52:499",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 214
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:48:56:314",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 215
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:48:57:101",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 216
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:48:57:902",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 217
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:58:40:564",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 218
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:58:47:161",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 219
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:58:50:553",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 220
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:58:53:945",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 221
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:59:13:217",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 222
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 14:59:45:877",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 223
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:1:43:845",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 224
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:1:44:417",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 225
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:1:49:211",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 226
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:1:55:641",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 227
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:2:578",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 228
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:7:384",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 229
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:16:97",
+    "action": "AFFECT",
+    "objectName": "ROLE",
+    "oldObject": {
+      "username": "mahdi",
+      "firstname": "kallel",
+      "lastname": "mahdi",
+      "password": "12345",
+      "email": "mahdi.kallel.stg@sifast.com",
+      "dateOfBirth": "10/04/1992",
+      "gender": "male",
+      "phone": "21104577",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_GUEST",
+          "description": "Role: Private user",
+          "authorities": [],
+          "id": 6
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": 19
+    },
+    "newObject": {
+      "username": "mahdi",
+      "firstname": "kallel",
+      "lastname": "mahdi",
+      "password": "12345",
+      "email": "mahdi.kallel.stg@sifast.com",
+      "dateOfBirth": "10/04/1992",
+      "gender": "male",
+      "phone": "21104577",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_GUEST",
+          "description": "Role: Private user",
+          "authorities": [],
+          "id": 6
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": 19
+    },
+    "id": 230
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:16:99",
+    "action": "AFFECT",
+    "objectName": "ROLE",
+    "oldObject": {
+      "username": "ahmed",
+      "firstname": "HadjTaieb",
+      "lastname": "Ahmed",
+      "email": "ahmed.hadjtaieb.stg@sifast.com",
+      "password": "12345",
+      "dateOfBirth": "22/10/1992",
+      "gender": "male",
+      "phone": "29758658",
+      "id": "20",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        }
+      ]
+    },
+    "newObject": {
+      "username": "ahmed",
+      "firstname": "HadjTaieb",
+      "lastname": "Ahmed",
+      "email": "ahmed.hadjtaieb.stg@sifast.com",
+      "password": "12345",
+      "dateOfBirth": "22/10/1992",
+      "gender": "male",
+      "phone": "29758658",
+      "id": "20",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        }
+      ]
+    },
+    "id": 231
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:16:101",
+    "action": "AFFECT",
+    "objectName": "ROLE",
+    "oldObject": {
+      "username": "fsdf",
+      "firstname": "sdfs²",
+      "lastname": "sdfvsdf",
+      "password": "12345",
+      "email": "mahdi-kallel@live.fr",
+      "dateOfBirth": "11.11.1999",
+      "gender": "female",
+      "phone": "",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": 22
+    },
+    "newObject": {
+      "username": "fsdf",
+      "firstname": "sdfs²",
+      "lastname": "sdfvsdf",
+      "password": "12345",
+      "email": "mahdi-kallel@live.fr",
+      "dateOfBirth": "11.11.1999",
+      "gender": "female",
+      "phone": "",
+      "roles": [
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": 22
+    },
+    "id": 232
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:16:102",
+    "action": "AFFECT",
+    "objectName": "ROLE",
+    "oldObject": {
+      "username": "sdf",
+      "firstname": "sdf",
+      "lastname": "sdfsd",
+      "password": "12345",
+      "email": "sdfdsf@gfds",
+      "dateOfBirth": "11.11.1199",
+      "gender": "female",
+      "phone": "5252525",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": 23
+    },
+    "newObject": {
+      "username": "sdf",
+      "firstname": "sdf",
+      "lastname": "sdfsd",
+      "password": "12345",
+      "email": "sdfdsf@gfds",
+      "dateOfBirth": "11.11.1199",
+      "gender": "female",
+      "phone": "5252525",
+      "roles": [],
+      "id": 23
+    },
+    "id": 233
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:20:153",
+    "action": "AFFECT",
+    "objectName": "ROLE",
+    "oldObject": {
+      "username": "mahdi",
+      "firstname": "kallel",
+      "lastname": "mahdi",
+      "password": "12345",
+      "email": "mahdi.kallel.stg@sifast.com",
+      "dateOfBirth": "10/04/1992",
+      "gender": "male",
+      "phone": "21104577",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_GUEST",
+          "description": "Role: Private user",
+          "authorities": [],
+          "id": 6
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": 19
+    },
+    "newObject": {
+      "username": "mahdi",
+      "firstname": "kallel",
+      "lastname": "mahdi",
+      "password": "12345",
+      "email": "mahdi.kallel.stg@sifast.com",
+      "dateOfBirth": "10/04/1992",
+      "gender": "male",
+      "phone": "21104577",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        },
+        {
+          "designation": "ROLE_GUEST",
+          "description": "Role: Private user",
+          "authorities": [],
+          "id": 6
+        },
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": 19
+    },
+    "id": 234
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:20:154",
+    "action": "AFFECT",
+    "objectName": "ROLE",
+    "oldObject": {
+      "username": "ahmed",
+      "firstname": "HadjTaieb",
+      "lastname": "Ahmed",
+      "email": "ahmed.hadjtaieb.stg@sifast.com",
+      "password": "12345",
+      "dateOfBirth": "22/10/1992",
+      "gender": "male",
+      "phone": "29758658",
+      "id": "20",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        }
+      ]
+    },
+    "newObject": {
+      "username": "ahmed",
+      "firstname": "HadjTaieb",
+      "lastname": "Ahmed",
+      "email": "ahmed.hadjtaieb.stg@sifast.com",
+      "password": "12345",
+      "dateOfBirth": "22/10/1992",
+      "gender": "male",
+      "phone": "29758658",
+      "id": "20",
+      "roles": [
+        {
+          "designation": "ROLE_ADMIN",
+          "description": "Role: Administrator",
+          "authorities": [],
+          "id": 5
+        }
+      ]
+    },
+    "id": 235
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:20:155",
+    "action": "AFFECT",
+    "objectName": "ROLE",
+    "oldObject": {
+      "username": "sdf",
+      "firstname": "sdf",
+      "lastname": "sdfsd",
+      "password": "12345",
+      "email": "sdfdsf@gfds",
+      "dateOfBirth": "11.11.1199",
+      "gender": "female",
+      "phone": "5252525",
+      "roles": [],
+      "id": 23
+    },
+    "newObject": {
+      "username": "sdf",
+      "firstname": "sdf",
+      "lastname": "sdfsd",
+      "password": "12345",
+      "email": "sdfdsf@gfds",
+      "dateOfBirth": "11.11.1199",
+      "gender": "female",
+      "phone": "5252525",
+      "roles": [],
+      "id": 23
+    },
+    "id": 236
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:20:156",
+    "action": "AFFECT",
+    "objectName": "ROLE",
+    "oldObject": {
+      "username": "fsdf",
+      "firstname": "sdfs²",
+      "lastname": "sdfvsdf",
+      "password": "12345",
+      "email": "mahdi-kallel@live.fr",
+      "dateOfBirth": "11.11.1999",
+      "gender": "female",
+      "phone": "",
+      "roles": [
+        {
+          "designation": "ROLE_SUPER_ADMIN",
+          "description": "Role:Super Administrator",
+          "authorities": [
+            {
+              "designation": "AUTH_USER_CREATE",
+              "description": "You have permission to create a user",
+              "id": 1
+            },
+            {
+              "designation": "AUTH_ROLE_CREATE",
+              "description": "You have permission to create a role",
+              "id": 2
+            },
+            {
+              "designation": "AUTH_ROLE_UPDATE",
+              "description": "You have permission to update a role ",
+              "id": 3
+            },
+            {
+              "designation": "AUTH_ROLE_AFFECT",
+              "description": "You have permission to affect a role",
+              "id": 4
+            },
+            {
+              "designation": "AUTH_USER_DELETE",
+              "description": "You have permission to delete a user",
+              "id": 7
+            },
+            {
+              "designation": "AUTH_USER_UPDATE",
+              "description": "You have permission to update a user",
+              "id": 8
+            },
+            {
+              "designation": "AUTH_USER_READ",
+              "description": "You have permission to show list of users",
+              "id": 9
+            },
+            {
+              "designation": "AUTH_CONTACT",
+              "description": "You have permission to send mail to Administrator",
+              "id": 10
+            },
+            {
+              "designation": "AUTH_ROLE_READ",
+              "description": "You have permission to access to role list",
+              "id": 11
+            },
+            {
+              "designation": "AUTH_ROLE_DELETE",
+              "description": "You have permission to delete a role",
+              "id": 12
+            },
+            {
+              "designation": "AUTH_TRACEABILITY_READ",
+              "description": "You have permission to consult traceabilities",
+              "id": 13
+            },
+            {
+              "designation": "AUTH_GENERATE_REPORT_EXEC",
+              "description": "You have permission to generate PDF and CSV format",
+              "id": 14
+            },
+            {
+              "designation": "AUTH_PERM_AFFECT",
+              "description": "You have permission to affect a permission",
+              "id": 15
+            },
+            {
+              "designation": "AUTH_PERM_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 16
+            },
+            {
+              "designation": "AUTH_LOG_READ",
+              "description": "You have permission to consult list of permissions",
+              "id": 17
+            }
+          ],
+          "id": 18
+        }
+      ],
+      "id": 22
+    },
+    "newObject": {
+      "username": "fsdf",
+      "firstname": "sdfs²",
+      "lastname": "sdfvsdf",
+      "password": "12345",
+      "email": "mahdi-kallel@live.fr",
+      "dateOfBirth": "11.11.1999",
+      "gender": "female",
+      "phone": "",
+      "roles": [],
+      "id": 22
+    },
+    "id": 237
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:45:802",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 238
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:2:47:447",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 239
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:3:12:846",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 240
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:3:42:7",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 241
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:9:52:229",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 242
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:11:3:961",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 243
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:11:4:651",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 244
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:11:5:198",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 245
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:11:11:683",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 246
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:11:12:625",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 247
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:11:15:252",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 248
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:13:27:953",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 249
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:13:53:636",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 250
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:13:57:321",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 251
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:14:8:298",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 252
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:14:46:88",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 253
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:14:57:54",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 254
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:15:6:886",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 255
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:16:7:305",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 256
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:16:8:529",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 257
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:16:18:867",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 258
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:17:26:299",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 259
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:18:29:405",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 260
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:18:47:85",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 261
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:18:49:112",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 262
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:18:55:190",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 263
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:18:56:782",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 264
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:18:58:534",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 265
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:18:59:160",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 266
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:19:29:413",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 267
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:20:14:635",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 268
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:20:47:34",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 269
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:20:50:844",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 270
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:24:16:389",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 271
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:24:16:789",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 272
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:25:21:855",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 273
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:25:31:125",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 274
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:27:7:161",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 275
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:27:8:178",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 276
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:31:22:963",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 277
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:46:2:329",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 278
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:46:45:795",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 279
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 15:46:47:479",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 280
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 16:11:48:517",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 281
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 16:11:49:913",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 282
+  },
+  {
+    "userId": 19,
+    "time": "1/6/2017 16:11:54:268",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 283
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 14:48:52:15",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 284
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 14:48:53:377",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 285
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:22:20:801",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 286
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:22:27:453",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 287
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:22:28:414",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 288
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:22:31:921",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 289
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:22:33:61",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 290
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:22:59:367",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 291
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:23:3:277",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 292
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:23:30:373",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 293
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:23:59:895",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 294
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:24:2:8",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 295
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:24:38:764",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 296
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:26:50:979",
+    "action": "READ",
+    "objectName": "USER",
+    "id": 297
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:26:58:634",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 298
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:26:59:446",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 299
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:27:8:639",
+    "action": "READ",
+    "objectName": "AUTHORITY",
+    "id": 300
+  },
+  {
+    "userId": 19,
+    "time": "3/6/2017 15:27:30:268",
+    "action": "READ",
+    "objectName": "ROLE",
+    "id": 301
+  }
+]

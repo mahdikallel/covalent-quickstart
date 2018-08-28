@@ -1,0 +1,3104 @@
+[
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:24:934",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:24:952",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:24:960",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:24:967",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:28:871",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:28:889",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:28:896",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:28:903",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:31:614",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:31:640",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:31:647",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:31:655",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:34:432",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:34:453",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:34:460",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:34:467",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:42:48",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:42:69",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:42:75",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:42:82",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:48:212",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:48:229",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:48:238",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:48:244",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:53:160",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:53:187",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:53:193",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:45:53:199",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:46:31:275",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:46:31:275",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:46:31:275",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:46:31:275",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:46:32:637",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:46:32:637",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:46:32:637",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:46:32:637",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:47:10:597",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:47:10:611",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:47:10:617",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:47:10:625",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:47:13:718",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:47:13:733",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:47:13:737",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:47:13:742",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:48:23:364",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:48:23:415",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:48:23:425",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:48:23:444",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:54:46:137",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:54:46:151",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:54:46:156",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:54:46:161",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:54:50:942",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:54:50:956",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:54:50:962",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 9:54:50:968",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:20:472",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:20:486",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:20:492",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:20:498",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:22:260",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:22:274",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:22:279",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:22:285",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:36:689",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:36:703",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:36:708",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:2:36:713",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:15:618",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:15:618",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:15:619",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:15:619",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:24:622",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:24:622",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:24:622",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:24:622",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:25:799",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:25:799",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:25:799",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:25:799",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:50:641",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:50:642",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:50:642",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:31:50:642",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:39:56:416",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:39:56:417",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:39:56:417",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:39:56:417",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:3:163",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:3:163",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:3:163",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:3:163",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:7:72",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:7:72",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:7:72",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:7:72",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:9:522",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:9:523",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:9:523",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:40:9:523",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:0:602",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:0:602",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:0:602",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:0:603",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:1:781",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:1:781",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:1:781",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:1:781",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:5:494",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:5:494",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:5:494",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:5:494",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:30:16",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:30:16",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:30:16",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:30:16",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:34:472",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:34:472",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:34:472",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:34:473",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:36:758",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:36:758",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:36:758",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:41:36:758",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:42:10:140",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:42:10:155",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:42:10:162",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:42:10:168",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:42:33:398",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:42:33:411",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:42:33:417",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "1/6/2017 10:42:33:422",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:20:891",
+    "message": "ManagePermissionComponent  invoke allAuthoritiesService",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:20:958",
+    "message": "ManagePermissionComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:21:912",
+    "message": "AffectRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:21:922",
+    "message": "AffectRoleComponent  access to loadTableRoleUsers()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:21:930",
+    "message": "AffectRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:21:936",
+    "message": "AffectRoleComponent  access to getAllRoles()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:21:946",
+    "message": "AffectRoleComponent  access to getAllUsers()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:21:995",
+    "message": "AffectRoleComponent  ngOnInit() Executing allRolesService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:22:4",
+    "message": "AffectRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:23:807",
+    "message": "AddPermissionToRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:23:817",
+    "message": "AddPermissionToRoleComponent  access to loadTableRoleAuthorities()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:23:825",
+    "message": "AddPermissionToRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:23:830",
+    "message": "AddPermissionToRoleComponent  access to getAllAuthorities()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:23:840",
+    "message": "AddPermissionToRoleComponent  access to getAllRoles()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:23:895",
+    "message": "AddPermissionToRoleComponent  ngOnInit() Executing allAuthoritiesService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:23:911",
+    "message": "AddPermissionToRoleComponent  ngOnInit() Executing allRolesService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:27:168",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:27:185",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:27:197",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:27:203",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:27:208",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:27:212",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:27:238",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:27:248",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:27:282",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:27:316",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:27:327",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:27:433",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:27:435",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:27:436",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:27:438",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:27:452",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:27:454",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:22:27:453\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:27:642",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:28:386",
+    "message": "ManagePermissionComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:28:404",
+    "message": "ManagePermissionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:28:407",
+    "message": "ManagePermissionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:28:414",
+    "message": "ManagePermissionComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:22:28:414\",\"action\":\"READ\",\"objectName\":\"AUTHORITY\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:28:470",
+    "message": "ManagePermissionComponent  invoke allAuthoritiesService",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:28:524",
+    "message": "ManagePermissionComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:31:614",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:31:645",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:31:659",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:31:666",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:31:673",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:31:678",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:31:698",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:31:715",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:31:742",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:31:770",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:31:782",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:31:901",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:31:902",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:31:904",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:31:905",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:31:921",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:31:922",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:22:31:921\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:32:45",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:32:767",
+    "message": "ManageUserComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:32:776",
+    "message": "ManageUserComponent constructor  localStorage.getItem(currentUser) is 19",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:32:789",
+    "message": "ManageUserComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:32:801",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:32:806",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:32:811",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:32:816",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:32:846",
+    "message": "ManageUserComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:32:851",
+    "message": "ManageUserComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:32:878",
+    "message": "FormInscriptionComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:32:930",
+    "message": "FormInscriptionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:32:939",
+    "message": "FormInscriptionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:33:60",
+    "message": "ManageUserComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:33:61",
+    "message": "ManageUserComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:22:33:61\",\"action\":\"READ\",\"objectName\":\"USER\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:33:208",
+    "message": "ManageUserComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:36:465",
+    "message": "ManageUserComponent  access to  onUpdateModal(item, roles) with item = 23",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:36:469",
+    "message": "ManageUserComponent  access to  showUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:36:505",
+    "message": "ManageUserComponent  setActivityUser api(id) id=23",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:36:507",
+    "message": "ManageUserComponent  Init Update form with gender female",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:59:264",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:59:267",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:59:267",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:59:267",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:59:267",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:22:59:267",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:59:282",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:59:283",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:59:292",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:59:302",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:59:303",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:59:363",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:59:363",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:59:363",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:59:363",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:59:367",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:22:59:367",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:22:59:367\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:22:59:472",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:1:311",
+    "message": "ManageRoleComponent  access to  onUpdateModal(item, authorities) with  item = 5",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:1:311",
+    "message": "ManageRoleComponent  access to  showUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:1:346",
+    "message": "ManageRoleComponent  invoke roleServiceById",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:3:162",
+    "message": "ManageUserComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:3:162",
+    "message": "ManageUserComponent constructor  localStorage.getItem(currentUser) is 19",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:3:165",
+    "message": "ManageUserComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:23:3:165",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:23:3:165",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:23:3:165",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:23:3:165",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:3:182",
+    "message": "ManageUserComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:3:182",
+    "message": "ManageUserComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:3:194",
+    "message": "FormInscriptionComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:3:212",
+    "message": "FormInscriptionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:3:212",
+    "message": "FormInscriptionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:3:277",
+    "message": "ManageUserComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:3:277",
+    "message": "ManageUserComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:23:3:277\",\"action\":\"READ\",\"objectName\":\"USER\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:3:354",
+    "message": "ManageUserComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:4:917",
+    "message": "ManageUserComponent  access to  onUpdateModal(item, roles) with item = 20",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:4:917",
+    "message": "ManageUserComponent  access to  showUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:4:944",
+    "message": "ManageUserComponent  setActivityUser api(id) id=20",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:4:944",
+    "message": "ManageUserComponent  Init Update form with gender male",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:30:256",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:30:258",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:23:30:258",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:23:30:258",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:23:30:259",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:23:30:259",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:30:271",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:30:272",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:30:284",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:30:295",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:30:295",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:30:367",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:30:367",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:30:368",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:30:368",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:30:372",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:30:373",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:23:30:373\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:30:458",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:56:522",
+    "message": "AddRoleComponent  access to Method resetForm ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:56:524",
+    "message": "AddRoleComponent  Rest Form after adding role",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:59:852",
+    "message": "ManageRoleComponent   reset() this.all = []  and this.newAttributes = []",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:59:852",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:59:853",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:59:887",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:59:887",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:59:887",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:59:887",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:59:895",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:23:59:895",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:23:59:895\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:23:59:944",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:1:970",
+    "message": "ManageRoleComponent   reset() this.all = []  and this.newAttributes = []",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:1:970",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:1:970",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:1:999",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:1:999",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:1:999",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:1:999",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:2:8",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:2:8",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:24:2:8\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:2:56",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:33:72",
+    "message": "HeaderComponent  getAllLogLevel() Executing allLogLevel Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:38:569",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:38:587",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:24:38:588",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:24:38:588",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:24:38:588",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:24:38:588",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:38:620",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:38:621",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:38:647",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:38:665",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:38:666",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:38:754",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:38:754",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:38:754",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:38:754",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:24:38:764",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:24:38:765",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:24:38:764\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:36:786",
+    "message": "HeaderComponent  getAllLogLevel() Executing allLogLevel Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:50:588",
+    "message": "ManageUserComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:50:602",
+    "message": "ManageUserComponent constructor  localStorage.getItem(currentUser) is 19",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:50:617",
+    "message": "ManageUserComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:26:50:628",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:26:50:633",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:26:50:639",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:26:50:644",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:50:680",
+    "message": "ManageUserComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:50:685",
+    "message": "ManageUserComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:50:720",
+    "message": "FormInscriptionComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:50:772",
+    "message": "FormInscriptionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:50:782",
+    "message": "FormInscriptionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:50:978",
+    "message": "ManageUserComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:50:980",
+    "message": "ManageUserComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:26:50:979\",\"action\":\"READ\",\"objectName\":\"USER\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:51:138",
+    "message": "ManageUserComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:52:264",
+    "message": "ManageUserComponent  access to  onUpdateModal(item, roles) with item = 20",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:52:266",
+    "message": "ManageUserComponent  access to  showUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:52:318",
+    "message": "ManageUserComponent  setActivityUser api(id) id=20",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:52:318",
+    "message": "ManageUserComponent  Init Update form with gender male",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:58:597",
+    "message": "ManagePermissionComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:58:623",
+    "message": "ManagePermissionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:58:627",
+    "message": "ManagePermissionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:58:634",
+    "message": "ManagePermissionComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:26:58:634\",\"action\":\"READ\",\"objectName\":\"AUTHORITY\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:58:694",
+    "message": "ManagePermissionComponent  invoke allAuthoritiesService",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:58:749",
+    "message": "ManagePermissionComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:59:164",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:59:183",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:26:59:196",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:26:59:203",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:26:59:209",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:26:59:215",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:59:236",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:59:244",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:59:275",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:59:308",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:59:319",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:59:428",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:59:429",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:59:430",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:59:430",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:59:445",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:26:59:447",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:26:59:446\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:26:59:633",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:0:634",
+    "message": "ManageRoleComponent  access to  onUpdateModal(item, authorities) with  item = 6",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:0:638",
+    "message": "ManageRoleComponent  access to  showUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:0:675",
+    "message": "ManageRoleComponent  invoke roleServiceById",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:8:609",
+    "message": "ManagePermissionComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:8:627",
+    "message": "ManagePermissionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:8:631",
+    "message": "ManagePermissionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:8:639",
+    "message": "ManagePermissionComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:27:8:639\",\"action\":\"READ\",\"objectName\":\"AUTHORITY\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:8:699",
+    "message": "ManagePermissionComponent  invoke allAuthoritiesService",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:8:755",
+    "message": "ManagePermissionComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:9:964",
+    "message": "AffectRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:9:973",
+    "message": "AffectRoleComponent  access to loadTableRoleUsers()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:9:983",
+    "message": "AffectRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:9:988",
+    "message": "AffectRoleComponent  access to getAllRoles()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:9:994",
+    "message": "AffectRoleComponent  access to getAllUsers()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:10:34",
+    "message": "AffectRoleComponent  ngOnInit() Executing allRolesService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:10:42",
+    "message": "AffectRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:30:57",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:30:77",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:27:30:89",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:27:30:95",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:27:30:101",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:27:30:105",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:30:123",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:30:130",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:30:151",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:30:175",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:30:186",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:30:255",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:30:256",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:30:256",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:30:257",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:30:267",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:30:268",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:27:30:268\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:30:387",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:55:470",
+    "message": "ManageUserComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:55:478",
+    "message": "ManageUserComponent constructor  localStorage.getItem(currentUser) is 19",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:55:494",
+    "message": "ManageUserComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:27:55:507",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:27:55:512",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:27:55:516",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:27:55:522",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:55:545",
+    "message": "ManageUserComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:55:548",
+    "message": "ManageUserComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:55:571",
+    "message": "FormInscriptionComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:55:615",
+    "message": "FormInscriptionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:55:627",
+    "message": "FormInscriptionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:55:734",
+    "message": "ManageUserComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:55:735",
+    "message": "ManageUserComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:27:55:735\",\"action\":\"READ\",\"objectName\":\"USER\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:55:849",
+    "message": "ManageUserComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:56:615",
+    "message": "ManageUserComponent  access to  onUpdateModal(item, roles) with item = 20",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:27:56:617",
+    "message": "ManageUserComponent  access to  showUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:56:658",
+    "message": "ManageUserComponent  setActivityUser api(id) id=20",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:27:56:659",
+    "message": "ManageUserComponent  Init Update form with gender male",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:0:605",
+    "message": "ManageUserComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:0:614",
+    "message": "ManageUserComponent constructor  localStorage.getItem(currentUser) is 19",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:0:626",
+    "message": "ManageUserComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:0:636",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:0:642",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:0:647",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:0:652",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:0:672",
+    "message": "ManageUserComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:0:676",
+    "message": "ManageUserComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:0:696",
+    "message": "FormInscriptionComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:0:737",
+    "message": "FormInscriptionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:0:745",
+    "message": "FormInscriptionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:0:844",
+    "message": "ManageUserComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:0:845",
+    "message": "ManageUserComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:28:0:845\",\"action\":\"READ\",\"objectName\":\"USER\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:0:945",
+    "message": "ManageUserComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:3:142",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:3:158",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:3:171",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:3:177",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:3:183",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:3:189",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:3:203",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:3:212",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:3:233",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:3:260",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:3:272",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:3:349",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:3:350",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:3:351",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:3:351",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:3:368",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:3:369",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:28:3:369\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:3:475",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:7:112",
+    "message": "ManageUserComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:7:121",
+    "message": "ManageUserComponent constructor  localStorage.getItem(currentUser) is 19",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:7:134",
+    "message": "ManageUserComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:7:144",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:7:150",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:7:156",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_USER_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:7:161",
+    "message": "ManageUserComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:7:180",
+    "message": "ManageUserComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:7:186",
+    "message": "ManageUserComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:7:206",
+    "message": "FormInscriptionComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:7:245",
+    "message": "FormInscriptionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:7:258",
+    "message": "FormInscriptionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:7:362",
+    "message": "ManageUserComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:7:362",
+    "message": "ManageUserComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:28:7:362\",\"action\":\"READ\",\"objectName\":\"USER\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:7:506",
+    "message": "ManageUserComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:78",
+    "message": "ManagePermissionComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:89",
+    "message": "ManagePermissionComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:89",
+    "message": "ManagePermissionComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:91",
+    "message": "ManagePermissionComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:28:14:91\",\"action\":\"READ\",\"objectName\":\"AUTHORITY\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:14:141",
+    "message": "ManagePermissionComponent  invoke allAuthoritiesService",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:14:173",
+    "message": "ManagePermissionComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:850",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:850",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:14:850",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:14:850",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:14:850",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:28:14:850",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:873",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:874",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:885",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:895",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:895",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:14:962",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:14:963",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:14:963",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:14:963",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:14:970",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:28:14:970",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:28:14:970\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:28:15:35",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:30:8:489",
+    "message": "HeaderComponent  getAllLogLevel() Executing allLogLevel Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:34:336",
+    "message": "ManageRoleComponent  access to constructor",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:34:356",
+    "message": "ManageRoleComponent  access to customiseViewWithAuthorities ",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:30:34:367",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_DELETE : canDelete is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:30:34:373",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_UPDATE : canUpdate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:30:34:378",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_ROLE_CREATE : canCreate is true",
+    "userId": 19
+  },
+  {
+    "level": "WARN",
+    "time": "3/6/2017 15:30:34:384",
+    "message": "ManageRoleComponent customiseViewWithAuthorities AUTH_GENERATE_REPORT_EXEC : canGenerateRapport CSV and PDF is true",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:34:420",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:34:430",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:34:472",
+    "message": "AddRoleComponent access to constructor ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:34:508",
+    "message": "AddRoleComponent  access to ngOnInit() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:34:521",
+    "message": "AddRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:30:34:671",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:30:34:672",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:30:34:672",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:30:34:673",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:30:34:687",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:34:690",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:30:34:688\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:30:34:847",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:35:804",
+    "message": "ManageRoleComponent  access to  onUpdateModal(item, authorities) with  item = 5",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:35:809",
+    "message": "ManageRoleComponent  access to  showUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:30:35:835",
+    "message": "ManageRoleComponent  invoke roleServiceById",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:30:41:618",
+    "message": "ManageRoleComponent  access to  hideUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:33:280",
+    "message": "ManageRoleComponent  access to  onUpdateModal(item, authorities) with  item = 5",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:33:284",
+    "message": "ManageRoleComponent  access to  showUpdateModal()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:31:33:304",
+    "message": "ManageRoleComponent  invoke roleServiceById",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:35:522",
+    "message": "ManageRoleComponent  access to Method: updateRole() ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:35:524",
+    "message": "ManageRoleComponent  Updating new role attributes.  New role = {\"designation\":\"ROLE_ADMIN\",\"description\":\"Role: Administrator\",\"id\":5,\"authorities\":[]}",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:35:685",
+    "message": "ManageRoleComponent  access to Method succesReq ",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:35:685",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:31:35:685\",\"action\":\"UPDATE\",\"objectName\":\"ROLE\",\"newObject\":{\"designation\":\"ROLE_ADMIN\",\"description\":\"Role: Administrator\",\"id\":5,\"authorities\":[]},\"oldObject\":{\"designation\":\"ROLE_ADMIN\",\"description\":\"Role: Administrator\",\"authorities\":[],\"id\":5}}",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:35:691",
+    "message": "ManageRoleComponent   reset() this.all = []  and this.newAttributes = []",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:35:693",
+    "message": "ManageRoleComponent  access to ngOnInit()",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:35:695",
+    "message": "ManageRoleComponent  access to buildForm()",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:31:35:790",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:31:35:790",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:31:35:790",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:31:35:792",
+    "message": "ManageRoleComponent  ngOnInit() Executing allUsersService Data exist ",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:31:35:825",
+    "message": "ManageRoleComponent  invoke allRolesService",
+    "userId": 19
+  },
+  {
+    "level": "DEBUG",
+    "time": "3/6/2017 15:31:35:826",
+    "message": "ManageRoleComponent  access to Method addActivities(activity) activity={\"userId\":19,\"time\":\"3/6/2017 15:31:35:826\",\"action\":\"READ\",\"objectName\":\"ROLE\"}",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:31:35:844",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  },
+  {
+    "level": "INFO",
+    "time": "3/6/2017 15:31:35:895",
+    "message": "ManageRoleComponent invoke addActivityService",
+    "userId": 19
+  }
+]

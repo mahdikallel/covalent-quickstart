@@ -1,0 +1,197 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SiFAST Mock Server (Swagger)</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+</head>
+<body>
+<main class="container">
+  <form class="well">
+    <fieldset>
+      <legend class="col-md-9 col-md-offset-2">Add/Edit/Delete a User</legend>
+      <div class="col-md-7 col-md-offset-2">
+        <div class="form-group">
+                            <textarea id="person" name="person" cols="60" rows="8" class="form-control">
+                                       {
+                                          "id":1,
+                                          "username": "username",
+                                          "firstname": "firstname",
+                                          "lastname": "lastname",
+                                          "password": "00000000",
+                                          "email": "firstname.lastname@sifast.com",
+                                          "dateOfBirth": "01/01/2000",
+                                          "gender": "male",
+                                          "phone": ""
+                                       }
+                            </textarea>
+
+
+
+        </div>
+      </div>
+      <p>
+                        <span class="col-xs-6 col-sm-4 col-md-2">
+                            <button type="button" class="btn btn-success btn-block" onclick="saveUser()">
+                                <i class="glyphicon glyphicon-ok"></i>
+                                Save <span class="person-label">User</span>
+                            </button>
+                            &nbsp;
+                        </span>
+        <span class="col-xs-6 col-sm-4 col-md-2">
+                            <button type="button" class="btn btn-danger btn-block" onclick="deleteUser()">
+                                <i class="glyphicon glyphicon-remove"></i>
+                                Delete <span class="pet-label">User</span>
+                            </button>
+                            &nbsp;
+                        </span>
+
+        <span class="col-xs-6 col-sm-4 col-md-2">
+                            <button type="button" class="btn btn-warning btn-block" onclick="updateUser()">
+                                <i class="glyphicon glyphicon-retweet"></i>
+                                Update <span class="pet-label">User</span>
+                            </button>
+                            &nbsp;
+                        </span>
+
+
+
+        <span class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-2">
+                            <a href="api/users" class="btn btn-default btn-block">
+                                <i class="glyphicon glyphicon-list"></i>
+                                All Users
+                            </a>
+                        </span>
+      </p>
+    </fieldset>
+  </form>
+
+
+  <form class="well">
+    <fieldset>
+      <legend class="col-md-9 col-md-offset-2">Contact Send a message </legend>
+      <div class="col-md-7 col-md-offset-2">
+        <div class="form-group">
+
+
+
+
+          <textarea id="contact" name="contact" cols="60" rows="8" class="form-control">
+                                       {
+                                          "firstname": "firstname",
+                                          "email": "firstname.lastname@sifast.com",
+                                          "lastname": "lastname",
+                                           "message": "hello"
+                                       }
+                            </textarea>
+        </div>
+      </div>
+      <p>
+
+
+
+
+
+        <span class="col-xs-6 col-sm-4 col-md-2">
+                            <button type="button" class="btn btn-success btn-block" onclick="saveContact()">
+                                <i class="glyphicon glyphicon-ok"></i>
+                                save <span class="pet-label">Contact</span>
+                            </button>
+                            &nbsp;
+                        </span>
+        <span class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-2">
+                            <a href="contact" class="btn btn-default btn-block">
+                                <i class="glyphicon glyphicon-list"></i>
+                                All messages
+                            </a>
+                        </span>
+      </p>
+    </fieldset>
+  </form>
+</main>
+
+<article id="results-modal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <header class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        <h4 class="modal-title">Results</h4>
+      </header>
+      <iframe id="results" name="results" seamless class="modal-body" style="width: 100%; border: none"></iframe>
+    </div>
+  </div>
+</article>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script>
+  var person;
+
+
+  function saveUser() {
+    parseUser() && $.ajax({
+      type: 'POST',
+      url: 'api/users',
+      data: $('#person').val(),
+      contentType: 'application/json',
+      dataType: 'text'
+    }).always(showModal);
+  }
+
+  function deleteUser() {
+    parseUser() && $.ajax({
+      type: 'DELETE',
+      url: 'api/users/' + person.id,
+      dataType: 'text'
+    }).always(showModal);
+  }
+
+  function updateUser() {
+    parseUser() && $.ajax({
+      type: 'PUT',
+      url: 'api/users/' + person.id,
+      data: $('#person').val(),
+      contentType: 'application/json',
+      dataType: 'text'
+    }).always(showModal);
+  }
+
+
+  function parseUser() {
+    try {
+      return person = JSON.parse($('#person').val());
+    }
+    catch (e) {
+      person = null;
+    }
+  }
+
+  function parseContact() {
+    try {
+      return contact = JSON.parse($('#contact').val());
+    }
+    catch (e) {
+      contactJson = null;
+    }
+  }
+  function saveContact() {
+    parseContact() && $.ajax({
+      type: 'POST',
+      url: 'contact',
+      data: $('#contact').val(),
+      contentType: 'application/json',
+      dataType: 'text'
+    }).always(showModal);
+  }
+
+
+  function showModal(data) {
+    data = data.responseText || data || '&lt;&lt; empty response &gt;&gt;';
+    $('#results-modal').modal();
+    $('#results').contents().find('body').html(data);
+  }
+</script>
+</body>
+</html>

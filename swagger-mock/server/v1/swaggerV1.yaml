@@ -1,0 +1,364 @@
+---
+swagger: '2.0'
+info:
+  title: Socle Symfony2 API
+  description: Documented API for Socle symfony2
+  version: 1.0.0
+
+schemes:
+- http
+- https
+
+host: 192.168.1.176:8006
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  "/api/users":
+    get:
+      tags:
+      - getUsers
+      summary: users list
+      operationId: showUsersList
+      responses:
+         200:
+           description: "List of users retrieved successfully."
+           schema:
+             type: array
+             items:
+               $ref: "#/definitions/User"
+         404:
+           description: No user found.
+           schema:
+             properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: No user found.
+         500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    post:
+      tags:
+      - addAuthority
+      summary: add user
+      operationId: addAuthority
+      parameters:
+      - name: body
+        in: body
+        description: The user Object to create.
+        required: true
+        schema:
+          "$ref": "#/definitions/User"
+      responses:
+        201:
+          description: The Registration has been done successfully.
+          schema:
+            "$ref": "#/definitions/User"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+  "/api/users/{id}":
+    get:
+      tags:
+      - setActivityUser
+      summary: Info for a specific user
+      operationId: setActivityUser
+      parameters:
+      - name: id
+        in: path
+        description: The id of the user to retrieve
+        required: true
+        type: integer
+      responses:
+        200:
+          description: User retrieved successfully.
+          schema:
+            "$ref": "#/definitions/User"
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: User not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    put:
+      tags:
+      - updateRole
+      summary: update user profile
+      operationId: updateRole
+      parameters:
+      - name: id
+        in: path
+        description: The id of the user to update.
+        required: true
+        type: integer
+      - name: body
+        in: body
+        description: Created user object.
+        required: true
+        schema:
+          "$ref": "#/definitions/User"
+      responses:
+        200:
+          description: The modifications has been done successfully.
+          schema:
+            "$ref": "#/definitions/User"
+        400:
+          description: Invalid inputs.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid inputs.
+        404:
+          description: User not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+    delete:
+      tags:
+      - deleteUser
+      summary: Delete a specific user
+      operationId: deleteUserById
+      parameters:
+      - name: id
+        in: path
+        description: The id of the user to delete
+        required: true
+        type: integer
+      responses:
+        200:
+          description: The user has been removed successfully.
+          schema:
+            properties:
+              message:
+                type: string
+                default: The user has been deleted successfully.
+        400:
+          description: Invalid input id.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 4
+              message:
+                type: string
+                default: Invalid input id.
+        404:
+          description: User not found.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 44
+              message:
+                type: string
+                default: User not found.
+        500:
+          description: Internal server error.
+          schema:
+            properties:
+              code:
+                type: integer
+                default: 5
+              message:
+                type: string
+                default: Internal server error.
+  /:
+    get:
+      produces:
+        - text/html
+      responses:
+        default:
+          description: The Swagger Person Store homepage
+          schema:
+            type: file
+            default:
+              $ref: index.html
+  /contact:
+        tags:
+        - ContactApi
+        get:
+          tags:
+          - GetContact
+          description: Return tous les message envoier par le formulaire de contact
+          operationId: findContactPerson
+          parameters: &personFilters
+            - name: firstname
+              in: query
+              description: Filters contact person by firstname
+              required: false
+              type: string
+            - name: lastname
+              in: query
+              description: Filters contact person by lastname
+              required: false
+              type: string
+            - name: email
+              in: query
+              description: Filters contact person by email
+              required: false
+              type: string
+            - name: message
+              in: query
+              description: Filters contact person by message
+              required: false
+              type: string
+          responses:
+            default:
+              description: Returns the matching contact person
+              schema:
+                type: array
+                items:
+                  $ref: "#/definitions/contact"
+              headers:
+                last-modified:
+                  type: string
+                  description: The date/time that a person was last modified
+
+        post:
+          tags:
+          - PostContact
+          description: Creates a new contact person in the store
+          operationId: addContactPerson
+          parameters:
+            - name: contactPerson
+              in: body
+              description: The contact person to add to the store
+              required: true
+              schema:
+                $ref: "#/definitions/contact"
+          responses:
+            201:
+              description: Returns the newly-added person
+              schema:
+                $ref: "#/definitions/contact"
+              headers:
+                Location:
+                  type: string
+                  description: The URL of the newly-added person
+definitions:
+  User:
+    required:
+    - username
+    - firstname
+    - lastname
+    - password
+    - id
+    properties:
+      username:
+        type: string
+        example: firas.jenzri
+        minLength: 3
+        maxLength: 20
+      firstname:
+        type: string
+        example: Firas
+        minLength: 3
+        maxLength: 20
+      lastname:
+        type: string
+        example: Jenzri
+        minLength: 3
+        maxLength: 20
+      password:
+        type: string
+        example: '12345'
+      email:
+        type: string
+        example: firas.jenzri.stg@sifast.com
+        minLength: 6
+        maxLength: 40
+      dateOfBirth:
+        type: string
+        example: 01/01/2000
+      gender:
+        type: string
+        enum:
+        - male
+        - female
+        example: male
+      phone:
+        type: string
+        example: ''
+    type: object
+  contact:
+      type: object
+      properties:
+        firstname:
+          type: string
+        lastname:
+          type: string
+        email:
+          type: string
+        message:
+          type: string

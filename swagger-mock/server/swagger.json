@@ -1,0 +1,401 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Socle Symfony2 API",
+        "description": "Documented API for Socle symfony2",
+        "version": "1.0.0"
+    },
+    "host": "192.168.1.176:8085",
+    "basePath": "/web/app.php",
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/api/users": {
+            "get": {
+                "tags": [
+                    "getUsers"
+                ],
+                "summary": "users list",
+                "operationId": "showUsersList",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of users retrieved successfully.",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    },
+                    "404": {
+                        "description": "No user found.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 44
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "No user found."
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 5
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Internal server error."
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "addUser"
+                ],
+                "summary": "add user",
+                "operationId": "addUser",
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "The user Object to create.",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "The Registration has been done successfully.",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid inputs.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 4
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Invalid inputs."
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 5
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Internal server error."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/users/{id}": {
+            "get": {
+                "tags": [
+                    "getUserById"
+                ],
+                "summary": "Info for a specific user",
+                "operationId": "getUserById",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "The id of the user to retrieve",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "User retrieved successfully.",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    },
+                    "404": {
+                        "description": "User not found.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 44
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "User not found."
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input id.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 4
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Invalid input id."
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 5
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Internal server error."
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "updateUser"
+                ],
+                "summary": "update user profile",
+                "operationId": "updateUser",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "The id of the user to update.",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Created user object.",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "The modifications has been done successfully.",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid inputs.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 4
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Invalid inputs."
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "User not found.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 44
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "User not found."
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 5
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Internal server error."
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "deleteUser"
+                ],
+                "summary": "Delete a specific user",
+                "operationId": "deleteUserById",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "The id of the user to delete",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "The user has been removed successfully.",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "type": "integer",
+                                    "default": "The user has been deleted successfully."
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid input id.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 4
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Invalid input id."
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "User not found.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 44
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "User not found."
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error.",
+                        "schema": {
+                            "properties": {
+                                "code": {
+                                    "type": "integer",
+                                    "default": 5
+                                },
+                                "message": {
+                                    "type": "string",
+                                    "default": "Internal server error."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "User": {
+            "required": [
+                "username",
+                "firstname",
+                "lastname",
+                "password",
+                "email"
+            ],
+            "properties": {
+                "username": {
+                    "type": "string",
+                    "example": "firas.jenzri"
+                },
+                "firstname": {
+                    "type": "string",
+                    "example": "Firas"
+                },
+                "lastname": {
+                    "type": "string",
+                    "example": "Jenzri"
+                },
+                "password": {
+                    "type": "string",
+                    "example": "12345"
+                },
+                "email": {
+                    "type": "string",
+                    "example": "firas.jenzri.stg@sifast.com"
+                },
+                "dateOfBirth": {
+                    "type": "string",
+                    "example": "01/01/2000"
+                },
+                "gender": {
+                    "type": "string",
+                    "enum": [
+                        "male",
+                        "female"
+                    ],
+                    "example": "male"
+                },
+                "phone": {
+                    "type": "string",
+                    "example": ""
+                }
+            },
+            "type": "object"
+        }
+    }
+}
