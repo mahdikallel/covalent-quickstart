@@ -38,11 +38,16 @@ import {GetUserByIdApi} from "../data/services/clients/settings/user/GetUserById
 import {CovalentDynamicFormsModule} from "@covalent/dynamic-forms";
 import {CovalentMarkdownModule} from "@covalent/markdown";
 import {CovalentHighlightModule} from "@covalent/highlight";
-import {CovalentStepsModule} from "@covalent/core";
+import {
+  CovalentStepsModule, CovalentSearchModule, CovalentDataTableModule,
+  CovalentMessageModule
+} from "@covalent/core";
 import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
 import {CurentUserService} from "../data/services/curent-user.service";
 import {TdAlertDialogComponent} from "@covalent/core";
 import {CovalentDialogsModule} from "@covalent/core";
+import { McdonaldsComponent } from './mcdonalds/mcdonalds.component';
+import { GetMcDonaldsStoreByStateCodeService } from './mcdonalds/services/get-mc-donalds-store-by-state-code.service';
 
 const httpInterceptorProviders: Type<any>[] = [
   RequestInterceptor,
@@ -57,7 +62,8 @@ export function getAPI(): string {
     AppComponent,
     MainComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    McdonaldsComponent
   ], // directives, components, and pipes owned by this NgModule
   imports: [
     // angular modules
@@ -86,6 +92,9 @@ export function getAPI(): string {
     CovalentMarkdownModule,
     CovalentDynamicFormsModule,
     CovalentDialogsModule,
+    CovalentSearchModule,
+    CovalentDataTableModule,
+    CovalentMessageModule,
     CovalentHttpModule.forRoot({
       interceptors: [{
         interceptor: RequestInterceptor, paths: ['**'],
@@ -103,7 +112,8 @@ export function getAPI(): string {
     }, USER_PROVIDER,
     GetUsersApi,
     GetUserByIdApi,
-    CurentUserService
+    CurentUserService,
+    GetMcDonaldsStoreByStateCodeService
   ], // additional providers needed for this module
   entryComponents: [ ],
   bootstrap: [ AppComponent ],

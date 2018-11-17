@@ -28,7 +28,7 @@ export class AppComponent {
     this._iconRegistry.addSvgIconInNamespace('assets', 'querygrid',
       this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/querygrid.svg'));
     this._iconRegistry.addSvgIconInNamespace('assets', 'sifast',
-      this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/sifast.svg'));
+      this._domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/mcdonalds.svg'));
   }
 
 }
